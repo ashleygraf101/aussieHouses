@@ -3,19 +3,47 @@
     <link rel="stylesheet" href="/css/font-awesome.min.css">
     
 <div class='wrapper'>
-    <form id='nameForm'>
-    <div class='form-horizontal'>
-        <lable id='incomeLable' for='incomeField'>What's your income:</lable>
-        <input id='incomeField' type='number' step='any' maxlength='25'></input>
+
+    <form class="form-horizontal">
+
+        <div class="form-group">
+
+            <label for="incomeField" class="control-label col-xs-2">Income</label>
+
+            <div class="col-xs-10">
+
+                <input id='incomeField' type='number' step='any' maxlength='25' class="form-control" placeholder="Income">
+
+            </div>
+
+        </div>
+
+        <div class="form-group">
+
+            <label for="locationField" class="control-label col-xs-2">Location</label>
+
+            <div class="col-xs-10">
+
+                <input type="text" class="form-control" id="locationField" placeholder="Location">
+
+            </div>
+
+        </div>
+
+        <div class="form-group">
+
+            <div class="col-xs-offset-2 col-xs-10">
+
+                <button type="submit" id="subButton" class="btn btn-primary">How long will it take?</button>
+
+            </div>
+
+        </div>
+
+    </form>
     </div>
-     <div class='form-horizontal'>
-        <table id='locationLable' for 'locationField'>Where do you want to live?</label>
-         <input id='locationField' type='text'></input>
-    </div>
-    <div class='form-sub'>
-        <button id='subButton' type='button'>How long will it take?</button>
-    </div>
-</form>
+
+
 
 <div>
     <p id='incomeLevel'></p>
