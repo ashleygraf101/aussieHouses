@@ -1,5 +1,7 @@
 // the function which handles the input field logic
-    var locations = [];
+function load() {
+    var locations = JSON.parse(data);
+}
 
     function addSuburb(suburb, price) {
         var location = {
@@ -10,7 +12,6 @@
         locations.push(location);
     }
     //add locations
-    addSuburb("2270500", "Vaucluse");
 
     //build a function that compares user search to array
     function compareSearch(a, b) {
