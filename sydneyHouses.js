@@ -1,7 +1,7 @@
 // the function which handles the input field logic
-function load() {
-    var locations = JSON.parse(data);
-}
+
+    var locations = [];
+
 
     function addSuburb(suburb, price) {
         var location = {
