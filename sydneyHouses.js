@@ -591,7 +591,7 @@ function printed() {
     var depositNumber = deposit();
     var percentages = document.getElementById('percentages').value;
 
-    this = 'It will take: ' + tenth + ' years to afford a $' + depositNumber + ' deposit, saving 10% of your income' +"\n" + 'It will take: ' + twntyth + ' years to afford a $' + depositNumber + ' deposit, saving 20% of your income';
+    percentages.innerHTML = 'It will take: ' + tenth + ' years to afford a $' + depositNumber + ' deposit, saving 10% of your income' +"\n" + 'It will take: ' + twntyth + ' years to afford a $' + depositNumber + ' deposit, saving 20% of your income';
 }
 
 
