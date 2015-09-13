@@ -362,6 +362,7 @@ addSuburb("769000","Parklea");
 addSuburb("950000","Peakhurst");
 addSuburb("1150000","Peakhurst Heights");
 addSuburb("715000","Pemulwuy");
+addSuburb("556000", "Penrith");
 addSuburb("748500","Pendle Hill");
 addSuburb("1080000","Pennant Hills");
 addSuburb("770000","Penshurst");
