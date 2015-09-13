@@ -441,6 +441,7 @@ addSuburb("1385000","Strathfield");
 addSuburb("1200000","Strathfield South");
 addSuburb("865500","Summer Hill");
 addSuburb("585000","Sutherland");
+addSuburb("1333750","Surry Hills");
 addSuburb("890000","Sydenham");
 addSuburb("910000","Sydney");
 addSuburb("902000","Sylvania");
