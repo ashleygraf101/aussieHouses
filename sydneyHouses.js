@@ -572,13 +572,28 @@ function depositTenth() {
     return tenth;
 }
 
+function getUserTwentyPercent() {
+    var incomeNumber = income();
+    var twentyPercent = incomeNumber * (2 / 10);
+    return twentyPercent;
+}
+
+function depositTwentyPercent() {
+    var depositNumber = deposit();
+    var twentyPercent = getUserTwentyPercent();
+    var fifth = depositNumber / twentyPercent;
+    return fifth;
+}
+
 function printed() {
     var tenth = depositTenth();
+    var twntyth = depositTwentyPercent();
     var depositNumber = deposit();
-    var percentages = document.getElementById('percentages');
+    var percentages = document.getElementById('percentages').value;
 
-    percentages.textContent = 'It will take: ' + tenth + ' years to afford a $' + depositNumber + ' deposit, saving 10% of your income';
+    this = 'It will take: ' + tenth + ' years to afford a $' + depositNumber + ' deposit, saving 10% of your income' +"\n" + 'It will take: ' + twntyth + ' years to afford a $' + depositNumber + ' deposit, saving 20% of your income';
 }
+
 
 var subButton = document.getElementById('subButton');
 subButton.addEventListener('click', function() {
