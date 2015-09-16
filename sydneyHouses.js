@@ -609,7 +609,7 @@ function printTwenty() {
     var depositNumber = deposit();
     var twentypercent = document.getElementById('twentypercent');
     
-    twentypercent.textContext = 'It will take: ' + twntyth + ' years to afford a $' + depositNumber + ' deposit, saving 20% of your income';
+    twentypercent.textContent = 'It will take: ' + twntyth + ' years to afford a $' + depositNumber + ' deposit, saving 20% of your income';
     
 }
 
@@ -632,7 +632,7 @@ function printThirty() {
     var depositNumber = deposit();
     var thirtypercent = document.getElementById('thirtypercent');
     
-    thirtypercent.textContext = 'It will take: ' + thrtyth + ' years to afford a $' + depositNumber + ' deposit, saving 30% of your income';
+    thirtypercent.textContent = 'It will take: ' + thrtyth + ' years to afford a $' + depositNumber + ' deposit, saving 30% of your income';
     
 }
 
@@ -644,4 +644,5 @@ subButton.addEventListener('click', function() {
     locationRecord();
     printTen();
     printTwenty();
+    printThirty();
 });
