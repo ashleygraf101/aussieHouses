@@ -3,22 +3,45 @@
     <link rel="stylesheet" href="/css/font-awesome.min.css">
 <title="Sydney Housing Prices"></title>
 
-<div class='wrapper'>
-            <form class="form-horizontal">
-                            <div class="form-group">
-        <lable id='incomeLable' for='incomeField'>What's your income:</lable>
-        <input id='incomeField' type='number' step='any' maxlength='25'></input>
-        <table id='locationLable' for 'locationField'>Where do you want to live?</label>
-         <input id='locationField' type='text'></input>
+<div class="container">
+<form role="form">
+  <div class="row">
+  	<label class="col-xs-4" for="incomeField">Income</label>
+    <div class="col-xs-8"><input type="numbers" class="form-control" id="incomeField" placeholder="Yearly Income"></div>
+  </div>
+  <div class="row">
+    <label class="col-xs-4" for="locationField">Location</label>
+    <div class="col-xs-8"><input type="text" class="form-control" id="locationField" placeholder="Location"></div>
+  </div>
+  <div class="row">
+    <div class="col-xs-12">
+      <button type="submit" id='subButton' class="btn btn-default">How long will it take?</button>
+    </div>
+  </div>
+</form>
+</div>
+    
+<p id="locationData">All data taken from www.onthehouse.com.au, and is accurate up to July 2015. Some suburbs may not be included in this dataset.</p>
+<div>
+    <p id='incomeLevel'></p>
+</div>
+<div>
+    <p id='location'></p>
+    <p id='price'></p>
+</div>
+<div>
+        <p id='tenpercent'></p>
+        <p id='twentypercent'></p>
+        <p id='thirtypercent'></p>
+        <p id='fourtypercent'></p>
+        <p id='fiftypercent'></p>
+        <p id='sixtypercent'></p>
+        <p id='seventypercent'></p>
+        <p id='eightypercent'></p>
+        <p id='ninetypercent'></p>
+</div>
+    </div>
 
-        <div class="form-group">
-
-            <div class="col-xs-offset-2 col-xs-10">
-        <button id='subButton' type='button'>How long will it take?</button>
-                    </div>
-
-        </div>
-    </form>
 
 
 
