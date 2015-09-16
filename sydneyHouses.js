@@ -558,7 +558,7 @@ function deposit() {
 
 function housePriceRecord() {
         var houseCost = housePrice();
-        var location = getUserLocation
+        var location = getUserLocation();
     var price = document.getElementById('price');
 
     price.textContent = 'As of July 2015, the median price for a house in ' + location + ' is $' + price;       
@@ -680,6 +680,24 @@ var fiftypercent = document.getElementById('fiftypercent');
 fiftypercent.textContent = 'It will take: ' + fftyth + ' years to afford a $' + depositNumber + ' deposit, saving 50% of your income';
 }
 
+function getUserSixtyPercent() {
+var incomeNumber = income();
+var sixtyPercent = incomeNumber * (6 / 10);
+return sixtyPercent;
+}
+function depositFiftyPercent() {
+var depositNumber = deposit();
+var sixtyPercent = getUserSixtyPercent();
+var sixtyP = depositNumber / sixtyPercent;
+return sixtyP;
+}
+function printSixty() {
+var sxtyth = getUserSixtyPercent();
+var depositNumber = deposit();
+var sixtypercent = document.getElementById('sixtypercent');
+sixtypercent.textContent = 'It will take: ' + sxtyth + ' years to afford a $' + depositNumber + ' deposit, saving 50% of your income';
+}
+
 var subButton = document.getElementById('subButton');
 subButton.addEventListener('click', function() {
     incomeRecord();
@@ -689,4 +707,5 @@ subButton.addEventListener('click', function() {
     printThirty();
     printForty();
     printFifty();
+    printSixty();
 });
