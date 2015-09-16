@@ -519,7 +519,7 @@ function getUserLocation() {
     return locationField;
 }
 
-function income() {
+function getUserIncome() {
     var incomeField = document.getElementById('incomeField').value;
     return incomeField;
 }
@@ -554,6 +554,14 @@ function deposit() {
     var depositNumber = housePrice();
     var depositPrice = depositNumber / 10;
     return depositPrice;
+}
+
+function housePriceRecord() {
+        var houseCost = housePrice();
+        var location = getUserLocation
+    var price = document.getElementById('price');
+
+    price.textContent = 'As of July 2015, the median price for a house in ' + location + ' is $' + price;       
 }
 
 function getUserTenPercent() {
@@ -636,7 +644,41 @@ function printThirty() {
     
 }
 
+function getUserFourtyPercent() {
+var incomeNumber = income();
+var fourtyPercent = incomeNumber * (4 / 10);
+return fourtyPercent;
+}
+function depositFortyPercent() {
+var depositNumber = deposit();
+var fourtyPercent = getUserFourtyPercent();
+var fortyP = depositNumber / fourtyPercent;
+return fortyP;
+}
+function printForty() {
+var fortyth = depositFortyPercent();
+var depositNumber = deposit();
+var fourtypercent = document.getElementById('fourtypercent');
+fourtypercent.textContent = 'It will take: ' + fortyth + ' years to afford a $' + depositNumber + ' deposit, saving 40% of your income';
+}
 
+function getUserFiftyPercent() {
+var incomeNumber = income();
+var fiftyPercent = incomeNumber * (5 / 10);
+return fiftyPercent;
+}
+function depositFiftyPercent() {
+var depositNumber = deposit();
+var fiftyPercent = getUserFiftyPercent();
+var fiftyP = depositNumber / fiftyPercent;
+return fiftyP;
+}
+function printFifty() {
+var fftyth = getUserFiftyPercent();
+var depositNumber = deposit();
+var fiftypercent = document.getElementById('fiftypercent');
+fiftypercent.textContent = 'It will take: ' + fftyth + ' years to afford a $' + depositNumber + ' deposit, saving 50% of your income';
+}
 
 var subButton = document.getElementById('subButton');
 subButton.addEventListener('click', function() {
@@ -645,4 +687,6 @@ subButton.addEventListener('click', function() {
     printTen();
     printTwenty();
     printThirty();
+    printForty();
+    printFifty();
 });
