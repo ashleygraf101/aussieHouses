@@ -552,7 +552,7 @@ function housePrice() {
 
 function deposit() {
     var house = housePrice();
-    var depositPrice = house / 5;
+    var depositPrice = house / 20;
     return depositPrice;
 }
 
