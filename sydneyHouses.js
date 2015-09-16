@@ -1345,7 +1345,7 @@ var seventyPercent = getUserSeventyPercent();
 var seventyP = depositNumber / seventyPercent;
 return seventyP;
 }
-function printSixty() {
+function printSeventy() {
 var svntyth = depositSeventyPercent();
 var depositNumber = deposit();
 var seventypercent = document.getElementById('seventypercent');
