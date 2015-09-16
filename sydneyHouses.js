@@ -1352,6 +1352,25 @@ var seventypercent = document.getElementById('seventypercent');
 seventypercent.textContent = 'It will take: ' + svntyth + ' years to afford a $' + depositNumber + ' deposit, saving 70% of your income';
 }
 
+
+function getUserEightyPercent() {
+var incomeNumber = getUserIncome();
+var eightyPercent = incomeNumber * (6 / 10);
+return eightyPercent;
+}
+function depositEightyPercent() {
+var depositNumber = deposit();
+var eightyPercent = getUserEightyPercent();
+var eightyP = depositNumber / eightyPercent;
+return eightyP;
+}
+function printSixty() {
+var eytyth = depositEightyPercent();
+var depositNumber = deposit();
+var eightypercent = document.getElementById('eightypercent');
+eightypercent.textContent = 'It will take: ' + eytyth + ' years to afford a $' + depositNumber + ' deposit, saving 80% of your income';
+}
+
 var subButton = document.getElementById('subButton');
 subButton.addEventListener('click', function() {
     incomeRecord();
@@ -1364,4 +1383,5 @@ subButton.addEventListener('click', function() {
     printFifty();
     printSixty();
     printSeventy();
+    printEighty();
 });
