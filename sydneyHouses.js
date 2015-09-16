@@ -514,6 +514,28 @@ function compareSearch(a, b) {
     return 0;
 }
 
+function housePrice() {
+    locations.sort(compareSearch);
+    var locationField = document.getElementById("locationField").value.trim();
+
+    for (var i = 0; i < locations.length; i += 1) {
+        if (locations[i].price === locationField) {
+            var housingNumber = locations[i].suburb;
+        }
+    }
+    return housingNumber;
+}
+
+
+function housePriceRecord() {
+        var houseCost = housePrice();
+        var location = getUserLocation();
+    var price = document.getElementById('price');
+
+    price.textContent = 'As of July 2015, the median price for a house in ' + location + ' is $' + houseCost + '.';       
+}
+
+
 function getUserLocation() {
     var locationField = document.getElementById('locationField').value;
     return locationField;
@@ -538,21 +560,10 @@ function locationRecord() {
     location.textContent = 'You want to live in: ' + locationPlace;
 }
 
-function housePrice() {
-    locations.sort(compareSearch);
-    var locationField = document.getElementById("locationField").value.trim();
-
-    for (var i = 0; i < locations.length; i += 1) {
-        if (locations[i].price === locationField) {
-            var housingNumber = locations[i].suburb;
-        }
-    }
-    return housingNumber;
-}
 
 function deposit() {
     var house = housePrice();
-    var depositPrice = house / 5;
+    var depositPrice = house / 20;
     return depositPrice;
 }
 
@@ -562,24 +573,13 @@ function getUserTenPercent() {
     return tenPercent;
 }
 
-function getUserTwentyPercent() {
-    var incomeNumber = getUserIncome();
-    var twentyPercent = incomeNumber * (2 / 10);
-    return twentyPercent;
-}
 
 function depositTenth() {
     var depositNumber = deposit();
     var tenPercent = getUserTenPercent();
-    var tenth = depositNumber / tenPercent;
+    var input = depositNumber / tenPercent;
+    var tenth = Math.round(input*10)/10;
     return tenth;
-}
-
-function depositTwentyPercent() {
-    var depositNumber = deposit();
-    var twentyPercent = getUserTwentyPercent();
-    var fifth = depositNumber / twentyPercent;
-    return fifth;
 }
 
 function printTen() {
@@ -599,8 +599,9 @@ return twentyPercent;
 function depositTwentyPercent() {
 var depositNumber = deposit();
 var twentyPercent = getUserTwentyPercent();
-var fifth = depositNumber / twentyPercent;
-return fifth;
+var input = depositNumber / twentyPercent;
+var twntyP = Math.round(input*10)/10;
+return twntyP;
 }
 function printTwenty() {
 var twntyth = depositTwentyPercent();
@@ -616,7 +617,8 @@ return thirtyPercent;
 function depositThirtyPercent() {
 var depositNumber = deposit();
 var thirtyPercent = getUserThirtyPercent();
-var thrtyP = depositNumber / thirtyPercent;
+var input = depositNumber / thirtyPercent;
+var thrtyP = Math.round(input*10)/10;
 return thrtyP;
 }
 function printThirty() {
@@ -624,14 +626,6 @@ var thrtyth = depositThirtyPercent();
 var depositNumber = deposit();
 var thirtypercent = document.getElementById('thirtypercent');
 thirtypercent.textContent = 'It will take: ' + thrtyth + ' years to afford a $' + depositNumber + ' deposit, saving 30% of your income';
-}
-
-function housePriceRecord() {
-        var houseCost = housePrice();
-        var location = getUserLocation();
-    var price = document.getElementById('price');
-
-    price.textContent = 'As of July 2015, the median price for a house in ' + location + ' is $' + houseCost + '.';       
 }
 
 function getUserFourtyPercent() {
@@ -642,8 +636,9 @@ return fourtyPercent;
 function depositFortyPercent() {
 var depositNumber = deposit();
 var fourtyPercent = getUserFourtyPercent();
-var fortyP = depositNumber / fourtyPercent;
-return fortyP;
+var input = depositNumber / fourtyPercent;
+var fiftyP = Math.round(input*10)/10;
+return fiftyP;
 }
 function printForty() {
 var fortyth = depositFortyPercent();
@@ -660,7 +655,8 @@ return fiftyPercent;
 function depositFiftyPercent() {
 var depositNumber = deposit();
 var fiftyPercent = getUserFiftyPercent();
-var fiftyP = depositNumber / fiftyPercent;
+var input = depositNumber / fiftyPercent;
+var fiftyP = Math.round(input*10)/10;
 return fiftyP;
 }
 function printFifty() {
@@ -678,7 +674,8 @@ return sixtyPercent;
 function depositSixtyPercent() {
 var depositNumber = deposit();
 var sixtyPercent = getUserSixtyPercent();
-var sixtyP = depositNumber / sixtyPercent;
+var input = depositNumber / sixtyPercent;
+var sixtyP = Math.round(input*10)/10;
 return sixtyP;
 }
 function printSixty() {
@@ -697,7 +694,8 @@ return seventyPercent;
 function depositSeventyPercent() {
 var depositNumber = deposit();
 var seventyPercent = getUserSeventyPercent();
-var seventyP = depositNumber / seventyPercent;
+var input = depositNumber / seventyPercent;
+var seventyP = Math.round(input*10)/10;
 return seventyP;
 }
 function printSeventy() {
@@ -716,7 +714,8 @@ return eightyPercent;
 function depositEightyPercent() {
 var depositNumber = deposit();
 var eightyPercent = getUserEightyPercent();
-var eightyP = depositNumber / eightyPercent;
+var input = depositNumber / eightyPercent;
+var eightyP = Math.round(input*10)/10;
 return eightyP;
 }
 function printEighty() {
