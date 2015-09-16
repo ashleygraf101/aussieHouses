@@ -1364,7 +1364,7 @@ var eightyPercent = getUserEightyPercent();
 var eightyP = depositNumber / eightyPercent;
 return eightyP;
 }
-function printSixty() {
+function printEighty() {
 var eytyth = depositEightyPercent();
 var depositNumber = deposit();
 var eightypercent = document.getElementById('eightypercent');
