@@ -572,6 +572,16 @@ function depositTenth() {
     return tenth;
 }
 
+function printTen() {
+    var tenth = depositTenth();
+    var depositNumber = deposit();
+    var tenpercent = document.getElementById('tenpercent').value;
+
+    tenpercent.textContext = 'It will take: ' + tenth + ' years to afford a $' + depositNumber + ' deposit, saving 10% of your income';
+    
+}
+
+
 function getUserTwentyPercent() {
     var incomeNumber = income();
     var twentyPercent = incomeNumber * (2 / 10);
@@ -585,20 +595,44 @@ function depositTwentyPercent() {
     return fifth;
 }
 
-function printed() {
-    var tenth = depositTenth();
+function printTwenty() {
     var twntyth = depositTwentyPercent();
     var depositNumber = deposit();
-    var percentages = document.getElementById('percentages').value;
-
-    percentages.innerHTML = 'It will take: ' + tenth + ' years to afford a $' + depositNumber + ' deposit, saving 10% of your income' +"\n" + 'It will take: ' + twntyth + ' years to afford a $' + depositNumber + ' deposit, saving 20% of your income';
+    var twentypercent = document.getElementById('twentypercent').value;
+    
+    twentypercent.textContext = 'It will take: ' + twntyth + ' years to afford a $' + depositNumber + ' deposit, saving 20% of your income';
+    
 }
+
+function getUserThirtyPercent() {
+    var incomeNumber = income();
+    var thirtyPercent = incomeNumber * (3 / 10);
+    return thirtyPercent;
+} 
+
+function depositThirtyPercent() {
+    var depositNumber = deposit();
+    var thirtyPercent = getUserThirtyPercent();
+    var thrtyP = depositNumber / thirtyPercent;
+    return thrtyP;
+}   
+
+
+function printThirty() {
+    var thrtyth = depositThirtyPercent();
+    var depositNumber = deposit();
+    var thirtypercent = document.getElementById('thirtypercent').value;
+    
+    thirtypercent.textContext = 'It will take: ' + thrtyth + ' years to afford a $' + depositNumber + ' deposit, saving 30% of your income';
+    
+}
+
 
 
 var subButton = document.getElementById('subButton');
 subButton.addEventListener('click', function() {
     incomeRecord();
     locationRecord();
-    printed();
-
+    printTen();
+    printTwenty();
 });
