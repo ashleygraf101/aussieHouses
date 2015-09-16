@@ -575,7 +575,7 @@ function depositTenth() {
 function printTen() {
     var tenth = depositTenth();
     var depositNumber = deposit();
-    var tenpercent = document.getElementById('tenpercent').value;
+    var tenpercent = document.getElementById('tenpercent');
 
     tenpercent.textContext = 'It will take: ' + tenth + ' years to afford a $' + depositNumber + ' deposit, saving 10% of your income';
     
@@ -598,7 +598,7 @@ function depositTwentyPercent() {
 function printTwenty() {
     var twntyth = depositTwentyPercent();
     var depositNumber = deposit();
-    var twentypercent = document.getElementById('twentypercent').value;
+    var twentypercent = document.getElementById('twentypercent');
     
     twentypercent.textContext = 'It will take: ' + twntyth + ' years to afford a $' + depositNumber + ' deposit, saving 20% of your income';
     
@@ -621,7 +621,7 @@ function depositThirtyPercent() {
 function printThirty() {
     var thrtyth = depositThirtyPercent();
     var depositNumber = deposit();
-    var thirtypercent = document.getElementById('thirtypercent').value;
+    var thirtypercent = document.getElementById('thirtypercent');
     
     thirtypercent.textContext = 'It will take: ' + thrtyth + ' years to afford a $' + depositNumber + ' deposit, saving 30% of your income';
     
