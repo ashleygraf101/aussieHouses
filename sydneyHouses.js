@@ -1336,7 +1336,7 @@ sixtypercent.textContent = 'It will take: ' + sxtyth + ' years to afford a $' + 
 
 function getUserSeventyPercent() {
 var incomeNumber = getUserIncome();
-var seventyPercent = incomeNumber * (6 / 10);
+var seventyPercent = incomeNumber * (7 / 10);
 return seventyPercent;
 }
 function depositSeventyPercent() {
@@ -1355,7 +1355,7 @@ seventypercent.textContent = 'It will take: ' + svntyth + ' years to afford a $'
 
 function getUserEightyPercent() {
 var incomeNumber = getUserIncome();
-var eightyPercent = incomeNumber * (6 / 10);
+var eightyPercent = incomeNumber * (8 / 10);
 return eightyPercent;
 }
 function depositEightyPercent() {
