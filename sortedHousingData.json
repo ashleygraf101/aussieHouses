@@ -1,1963 +1,1962 @@
-data = 
-'[
+[
   {
-    "Suburb":"Abbotsbury",
-    "Price":940500
+    "Price": 940500,
+    "Suburb": "Abbotsbury"
   },
   {
-    "Suburb":"Abbotsford",
-    "Price":850000
+    "Price": 850000,
+    "Suburb": "Abbotsford"
   },
   {
-    "Suburb":"Alexandria",
-    "Price":722250
+    "Price": 722250,
+    "Suburb": "Alexandria"
   },
   {
-    "Suburb":"Alfords Point",
-    "Price":1151000
+    "Price": 1151000,
+    "Suburb": "Alfords Point"
   },
   {
-    "Suburb":"Allambie Heights",
-    "Price":1285000
+    "Price": 1285000,
+    "Suburb": "Allambie Heights"
   },
   {
-    "Suburb":"Allawah",
-    "Price":661975
+    "Price": 661975,
+    "Suburb": "Allawah"
   },
   {
-    "Suburb":"Annandale",
-    "Price":1210000
+    "Price": 1210000,
+    "Suburb": "Annandale"
   },
   {
-    "Suburb":"Arcadia",
-    "Price":1505000
+    "Price": 1505000,
+    "Suburb": "Arcadia"
   },
   {
-    "Suburb":"Arncliffe",
-    "Price":685900
+    "Price": 685900,
+    "Suburb": "Arncliffe"
   },
   {
-    "Suburb":"Artarmon",
-    "Price":883000
+    "Price": 883000,
+    "Suburb": "Artarmon"
   },
   {
-    "Suburb":"Ashbury",
-    "Price":1310000
+    "Price": 1310000,
+    "Suburb": "Ashbury"
   },
   {
-    "Suburb":"Ashcroft",
-    "Price":580000
+    "Price": 580000,
+    "Suburb": "Ashcroft"
   },
   {
-    "Suburb":"Ashfield",
-    "Price":740000
+    "Price": 740000,
+    "Suburb": "Ashfield"
   },
   {
-    "Suburb":"Asquith",
-    "Price":1030000
+    "Price": 1030000,
+    "Suburb": "Asquith"
   },
   {
-    "Suburb":"Auburn",
-    "Price":594000
+    "Price": 594000,
+    "Suburb": "Auburn"
   },
   {
-    "Suburb":"Austral",
-    "Price":1040000
+    "Price": 1040000,
+    "Suburb": "Austral"
   },
   {
-    "Suburb":"Avalon Beach",
-    "Price":1070000
+    "Price": 1070000,
+    "Suburb": "Avalon Beach"
   },
   {
-    "Suburb":"Balgowlah",
-    "Price":1370000
+    "Price": 1370000,
+    "Suburb": "Balgowlah"
   },
   {
-    "Suburb":"Balgowlah Heights",
-    "Price":2100000
+    "Price": 2100000,
+    "Suburb": "Balgowlah Heights"
   },
   {
-    "Suburb":"Balmain",
-    "Price":1700000
+    "Price": 1700000,
+    "Suburb": "Balmain"
   },
   {
-    "Suburb":"Balmain East",
-    "Price":2180000
+    "Price": 2180000,
+    "Suburb": "Balmain East"
   },
   {
-    "Suburb":"Bangor",
-    "Price":873001
+    "Price": 873001,
+    "Suburb": "Bangor"
   },
   {
-    "Suburb":"Banksia",
-    "Price":560000
+    "Price": 560000,
+    "Suburb": "Banksia"
   },
   {
-    "Suburb":"Banksmeadow",
-    "Price":1250000
+    "Price": 1250000,
+    "Suburb": "Banksmeadow"
   },
   {
-    "Suburb":"Bankstown",
-    "Price":496000
+    "Price": 496000,
+    "Suburb": "Bankstown"
   },
   {
-    "Suburb":"Barden Ridge",
-    "Price":1100000
+    "Price": 1100000,
+    "Suburb": "Barden Ridge"
   },
   {
-    "Suburb":"Bardia",
-    "Price":710000
+    "Price": 710000,
+    "Suburb": "Bardia"
   },
   {
-    "Suburb":"Bardwell Park",
-    "Price":1280000
+    "Price": 1280000,
+    "Suburb": "Bardwell Park"
   },
   {
-    "Suburb":"Bardwell Valley",
-    "Price":1035000
+    "Price": 1035000,
+    "Suburb": "Bardwell Valley"
   },
   {
-    "Suburb":"Bass Hill",
-    "Price":670500
+    "Price": 670500,
+    "Suburb": "Bass Hill"
   },
   {
-    "Suburb":"Bayview",
-    "Price":1648500
+    "Price": 1648500,
+    "Suburb": "Bayview"
   },
   {
-    "Suburb":"Beacon Hill",
-    "Price":1178000
+    "Price": 1178000,
+    "Suburb": "Beacon Hill"
   },
   {
-    "Suburb":"Beaconsfield",
-    "Price":841500
+    "Price": 841500,
+    "Suburb": "Beaconsfield"
   },
   {
-    "Suburb":"Beaumont Hills",
-    "Price":957500
+    "Price": 957500,
+    "Suburb": "Beaumont Hills"
   },
   {
-    "Suburb":"Beecroft",
-    "Price":1410500
+    "Price": 1410500,
+    "Suburb": "Beecroft"
   },
   {
-    "Suburb":"Belfield",
-    "Price":1081000
+    "Price": 1081000,
+    "Suburb": "Belfield"
   },
   {
-    "Suburb":"Bellevue Hill",
-    "Price":1567500
+    "Price": 1567500,
+    "Suburb": "Bellevue Hill"
   },
   {
-    "Suburb":"Belmore",
-    "Price":717500
+    "Price": 717500,
+    "Suburb": "Belmore"
   },
   {
-    "Suburb":"Belrose",
-    "Price":1295000
+    "Price": 1295000,
+    "Suburb": "Belrose"
   },
   {
-    "Suburb":"Berala",
-    "Price":783000
+    "Price": 783000,
+    "Suburb": "Berala"
   },
   {
-    "Suburb":"Berowra",
-    "Price":870000
+    "Price": 870000,
+    "Suburb": "Berowra"
   },
   {
-    "Suburb":"Berowra Creek",
-    "Price":600000
+    "Price": 600000,
+    "Suburb": "Berowra Creek"
   },
   {
-    "Suburb":"Berowra Heights",
-    "Price":976500
+    "Price": 976500,
+    "Suburb": "Berowra Heights"
   },
   {
-    "Suburb":"Beverley Park",
-    "Price":1500000
+    "Price": 1500000,
+    "Suburb": "Beverley Park"
   },
   {
-    "Suburb":"Beverly Hills",
-    "Price":1155000
+    "Price": 1155000,
+    "Suburb": "Beverly Hills"
   },
   {
-    "Suburb":"Bexley",
-    "Price":780000
+    "Price": 780000,
+    "Suburb": "Bexley"
   },
   {
-    "Suburb":"Bexley North",
-    "Price":1200000
+    "Price": 1200000,
+    "Suburb": "Bexley North"
   },
   {
-    "Suburb":"Bidwill",
-    "Price":460000
+    "Price": 460000,
+    "Suburb": "Bidwill"
   },
   {
-    "Suburb":"Bilgola",
-    "Price":1500000
+    "Price": 1500000,
+    "Suburb": "Bilgola"
   },
   {
-    "Suburb":"Birchgrove",
-    "Price":1600000
+    "Price": 1600000,
+    "Suburb": "Birchgrove"
   },
   {
-    "Suburb":"Birrong",
-    "Price":732500
+    "Price": 732500,
+    "Suburb": "Birrong"
   },
   {
-    "Suburb":"Blakehurst",
-    "Price":1501000
+    "Price": 1501000,
+    "Suburb": "Blakehurst"
   },
   {
-    "Suburb":"Bligh Park",
-    "Price":585000
+    "Price": 585000,
+    "Suburb": "Bligh Park"
   },
   {
-    "Suburb":"Bondi Junction",
-    "Price":1300000
+    "Price": 1300000,
+    "Suburb": "Bondi Junction"
   },
   {
-    "Suburb":"Bonnet Bay",
-    "Price":917500
+    "Price": 917500,
+    "Suburb": "Bonnet Bay"
   },
   {
-    "Suburb":"Bonnyrigg",
-    "Price":640000
+    "Price": 640000,
+    "Suburb": "Bonnyrigg"
   },
   {
-    "Suburb":"Bonnyrigg Heights",
-    "Price":677500
+    "Price": 677500,
+    "Suburb": "Bonnyrigg Heights"
   },
   {
-    "Suburb":"Bossley Park",
-    "Price":731500
+    "Price": 731500,
+    "Suburb": "Bossley Park"
   },
   {
-    "Suburb":"Botany",
-    "Price":800000
+    "Price": 800000,
+    "Suburb": "Botany"
   },
   {
-    "Suburb":"Breakfast Point",
-    "Price":1075000
+    "Price": 1075000,
+    "Suburb": "Breakfast Point"
   },
   {
-    "Suburb":"Brighton-le-sands",
-    "Price":872500
+    "Price": 872500,
+    "Suburb": "Brighton-le-sands"
   },
   {
-    "Suburb":"Bringelly",
-    "Price":1820000
+    "Price": 1820000,
+    "Suburb": "Bringelly"
   },
   {
-    "Suburb":"Bronte",
-    "Price":1833000
+    "Price": 1833000,
+    "Suburb": "Bronte"
   },
   {
-    "Suburb":"Brookvale",
-    "Price":672500
+    "Price": 672500,
+    "Suburb": "Brookvale"
   },
   {
-    "Suburb":"Bundeena",
-    "Price":750000
+    "Price": 750000,
+    "Suburb": "Bundeena"
   },
   {
-    "Suburb":"Burraneer",
-    "Price":1700000
+    "Price": 1700000,
+    "Suburb": "Burraneer"
   },
   {
-    "Suburb":"Burwood",
-    "Price":793500
+    "Price": 793500,
+    "Suburb": "Burwood"
   },
   {
-    "Suburb":"Burwood Heights",
-    "Price":1441000
+    "Price": 1441000,
+    "Suburb": "Burwood Heights"
   },
   {
-    "Suburb":"Busby",
-    "Price":566900
+    "Price": 566900,
+    "Suburb": "Busby"
   },
   {
-    "Suburb":"Cabarita",
-    "Price":1940000
+    "Price": 1940000,
+    "Suburb": "Cabarita"
   },
   {
-    "Suburb":"Cabramatta",
-    "Price":440000
+    "Price": 440000,
+    "Suburb": "Cabramatta"
   },
   {
-    "Suburb":"Cabramatta West",
-    "Price":760000
+    "Price": 760000,
+    "Suburb": "Cabramatta West"
   },
   {
-    "Suburb":"Cammeray",
-    "Price":1019000
+    "Price": 1019000,
+    "Suburb": "Cammeray"
   },
   {
-    "Suburb":"Camperdown",
-    "Price":890000
+    "Price": 890000,
+    "Suburb": "Camperdown"
   },
   {
-    "Suburb":"Campsie",
-    "Price":580000
+    "Price": 580000,
+    "Suburb": "Campsie"
   },
   {
-    "Suburb":"Canada Bay",
-    "Price":1000000
+    "Price": 1000000,
+    "Suburb": "Canada Bay"
   },
   {
-    "Suburb":"Canley Heights",
-    "Price":727000
+    "Price": 727000,
+    "Suburb": "Canley Heights"
   },
   {
-    "Suburb":"Canley Vale",
-    "Price":527000
+    "Price": 527000,
+    "Suburb": "Canley Vale"
   },
   {
-    "Suburb":"Canterbury",
-    "Price":670000
+    "Price": 670000,
+    "Suburb": "Canterbury"
   },
   {
-    "Suburb":"Caringbah",
-    "Price":605000
+    "Price": 605000,
+    "Suburb": "Caringbah"
   },
   {
-    "Suburb":"Caringbah South",
-    "Price":1225000
+    "Price": 1225000,
+    "Suburb": "Caringbah South"
   },
   {
-    "Suburb":"Carlingford",
-    "Price":985000
+    "Price": 985000,
+    "Suburb": "Carlingford"
   },
   {
-    "Suburb":"Carlton",
-    "Price":702500
+    "Price": 702500,
+    "Suburb": "Carlton"
   },
   {
-    "Suburb":"Carnes Hill",
-    "Price":435000
+    "Price": 435000,
+    "Suburb": "Carnes Hill"
   },
   {
-    "Suburb":"Carramar",
-    "Price":357500
+    "Price": 357500,
+    "Suburb": "Carramar"
   },
   {
-    "Suburb":"Carss Park",
-    "Price":1050000
+    "Price": 1050000,
+    "Suburb": "Carss Park"
   },
   {
-    "Suburb":"Cartwright",
-    "Price":500000
+    "Price": 500000,
+    "Suburb": "Cartwright"
   },
   {
-    "Suburb":"Castle Cove",
-    "Price":2220000
+    "Price": 2220000,
+    "Suburb": "Castle Cove"
   },
   {
-    "Suburb":"Castlecrag",
-    "Price":2915000
+    "Price": 2915000,
+    "Suburb": "Castlecrag"
   },
   {
-    "Suburb":"Casula",
-    "Price":702500
+    "Price": 702500,
+    "Suburb": "Casula"
   },
   {
-    "Suburb":"Cecil Hills",
-    "Price":725000
+    "Price": 725000,
+    "Suburb": "Cecil Hills"
   },
   {
-    "Suburb":"Centennial Park",
-    "Price":607500
+    "Price": 607500,
+    "Suburb": "Centennial Park"
   },
   {
-    "Suburb":"Chatswood",
-    "Price":913500
+    "Price": 913500,
+    "Suburb": "Chatswood"
   },
   {
-    "Suburb":"Chatswood West",
-    "Price":1375000
+    "Price": 1375000,
+    "Suburb": "Chatswood West"
   },
   {
-    "Suburb":"Cheltenham",
-    "Price":1200000
+    "Price": 1200000,
+    "Suburb": "Cheltenham"
   },
   {
-    "Suburb":"Cherrybrook",
-    "Price":1394800
+    "Price": 1394800,
+    "Suburb": "Cherrybrook"
   },
   {
-    "Suburb":"Chester Hill",
-    "Price":730000
+    "Price": 730000,
+    "Suburb": "Chester Hill"
   },
   {
-    "Suburb":"Chifley",
-    "Price":1580000
+    "Price": 1580000,
+    "Suburb": "Chifley"
   },
   {
-    "Suburb":"Chippendale",
-    "Price":750000
+    "Price": 750000,
+    "Suburb": "Chippendale"
   },
   {
-    "Suburb":"Chipping Norton",
-    "Price":705000
+    "Price": 705000,
+    "Suburb": "Chipping Norton"
   },
   {
-    "Suburb":"Chiswick",
-    "Price":800000
+    "Price": 800000,
+    "Suburb": "Chiswick"
   },
   {
-    "Suburb":"Chullora",
-    "Price":405000
+    "Price": 405000,
+    "Suburb": "Chullora"
   },
   {
-    "Suburb":"Church Point",
-    "Price":1350000
+    "Price": 1350000,
+    "Suburb": "Church Point"
   },
   {
-    "Suburb":"Clareville",
-    "Price":1687500
+    "Price": 1687500,
+    "Suburb": "Clareville"
   },
   {
-    "Suburb":"Clemton Park",
-    "Price":872500
+    "Price": 872500,
+    "Suburb": "Clemton Park"
   },
   {
-    "Suburb":"Clontarf",
-    "Price":3305000
+    "Price": 3305000,
+    "Suburb": "Clontarf"
   },
   {
-    "Suburb":"Clovelly",
-    "Price":1260000
+    "Price": 1260000,
+    "Suburb": "Clovelly"
   },
   {
-    "Suburb":"Colebee",
-    "Price":549000
+    "Price": 549000,
+    "Suburb": "Colebee"
   },
   {
-    "Suburb":"Collaroy",
-    "Price":775000
+    "Price": 775000,
+    "Suburb": "Collaroy"
   },
   {
-    "Suburb":"Collaroy Plateau West",
-    "Price":1362500
+    "Price": 1362500,
+    "Suburb": "Collaroy Plateau West"
   },
   {
-    "Suburb":"Colyton",
-    "Price":555000
+    "Price": 555000,
+    "Suburb": "Colyton"
   },
   {
-    "Suburb":"Como",
-    "Price":1215000
+    "Price": 1215000,
+    "Suburb": "Como"
   },
   {
-    "Suburb":"Concord",
-    "Price":1297500
+    "Price": 1297500,
+    "Suburb": "Concord"
   },
   {
-    "Suburb":"Concord West",
-    "Price":1417500
+    "Price": 1417500,
+    "Suburb": "Concord West"
   },
   {
-    "Suburb":"Condell Park",
-    "Price":702000
+    "Price": 702000,
+    "Suburb": "Condell Park"
   },
   {
-    "Suburb":"Connells Point",
-    "Price":1565000
+    "Price": 1565000,
+    "Suburb": "Connells Point"
   },
   {
-    "Suburb":"Constitution Hill",
-    "Price":855000
+    "Price": 855000,
+    "Suburb": "Constitution Hill"
   },
   {
-    "Suburb":"Coogee",
-    "Price":885000
+    "Price": 885000,
+    "Suburb": "Coogee"
   },
   {
-    "Suburb":"Cornwallis",
-    "Price":950000
+    "Price": 950000,
+    "Suburb": "Cornwallis"
   },
   {
-    "Suburb":"Cowan",
-    "Price":850000
+    "Price": 850000,
+    "Suburb": "Cowan"
   },
   {
-    "Suburb":"Cremorne",
-    "Price":987500
+    "Price": 987500,
+    "Suburb": "Cremorne"
   },
   {
-    "Suburb":"Cremorne Point",
-    "Price":1290000
+    "Price": 1290000,
+    "Suburb": "Cremorne Point"
   },
   {
-    "Suburb":"Cronulla",
-    "Price":800000
+    "Price": 800000,
+    "Suburb": "Cronulla"
   },
   {
-    "Suburb":"Crows Nest",
-    "Price":899000
+    "Price": 899000,
+    "Suburb": "Crows Nest"
   },
   {
-    "Suburb":"Croydon",
-    "Price":1090000
+    "Price": 1090000,
+    "Suburb": "Croydon"
   },
   {
-    "Suburb":"Croydon Park",
-    "Price":776500
+    "Price": 776500,
+    "Suburb": "Croydon Park"
   },
   {
-    "Suburb":"Cumberland Reach",
-    "Price":852500
+    "Price": 852500,
+    "Suburb": "Cumberland Reach"
   },
   {
-    "Suburb":"Curl Curl",
-    "Price":1350000
+    "Price": 1350000,
+    "Suburb": "Curl Curl"
   },
   {
-    "Suburb":"Daceyville",
-    "Price":1342751
+    "Price": 1342751,
+    "Suburb": "Daceyville"
   },
   {
-    "Suburb":"Darling Point",
-    "Price":1435000
+    "Price": 1435000,
+    "Suburb": "Darling Point"
   },
   {
-    "Suburb":"Darlington",
-    "Price":1290000
+    "Price": 1290000,
+    "Suburb": "Darlington"
   },
   {
-    "Suburb":"Davidson",
-    "Price":1440000
+    "Price": 1440000,
+    "Suburb": "Davidson"
   },
   {
-    "Suburb":"Dean Park",
-    "Price":603750
+    "Price": 603750,
+    "Suburb": "Dean Park"
   },
   {
-    "Suburb":"Denistone",
-    "Price":1405000
+    "Price": 1405000,
+    "Suburb": "Denistone"
   },
   {
-    "Suburb":"Denistone East",
-    "Price":1300000
+    "Price": 1300000,
+    "Suburb": "Denistone East"
   },
   {
-    "Suburb":"Denistone West",
-    "Price":1350000
+    "Price": 1350000,
+    "Suburb": "Denistone West"
   },
   {
-    "Suburb":"Dolans Bay",
-    "Price":1645000
+    "Price": 1645000,
+    "Suburb": "Dolans Bay"
   },
   {
-    "Suburb":"Dolls Point",
-    "Price":677500
+    "Price": 677500,
+    "Suburb": "Dolls Point"
   },
   {
-    "Suburb":"Doonside",
-    "Price":592500
+    "Price": 592500,
+    "Suburb": "Doonside"
   },
   {
-    "Suburb":"Double Bay",
-    "Price":1482500
+    "Price": 1482500,
+    "Suburb": "Double Bay"
   },
   {
-    "Suburb":"Dover Heights",
-    "Price":3071000
+    "Price": 3071000,
+    "Suburb": "Dover Heights"
   },
   {
-    "Suburb":"Drummoyne",
-    "Price":1270000
+    "Price": 1270000,
+    "Suburb": "Drummoyne"
   },
   {
-    "Suburb":"Duffys Forest",
-    "Price":3220000
+    "Price": 3220000,
+    "Suburb": "Duffys Forest"
   },
   {
-    "Suburb":"Dulwich Hill",
-    "Price":720000
+    "Price": 720000,
+    "Suburb": "Dulwich Hill"
   },
   {
-    "Suburb":"Dundas",
-    "Price":1005000
+    "Price": 1005000,
+    "Suburb": "Dundas"
   },
   {
-    "Suburb":"Dundas Valley",
-    "Price":850000
+    "Price": 850000,
+    "Suburb": "Dundas Valley"
   },
   {
-    "Suburb":"Dural",
-    "Price":1282500
+    "Price": 1282500,
+    "Suburb": "Dural"
   },
   {
-    "Suburb":"Earlwood",
-    "Price":1250000
+    "Price": 1250000,
+    "Suburb": "Earlwood"
   },
   {
-    "Suburb":"Eastern Creek",
-    "Price":633000
+    "Price": 633000,
+    "Suburb": "Eastern Creek"
   },
   {
-    "Suburb":"Eastgardens",
-    "Price":1840000
+    "Price": 1840000,
+    "Suburb": "Eastgardens"
   },
   {
-    "Suburb":"East Hills",
-    "Price":858000
+    "Price": 858000,
+    "Suburb": "East Hills"
   },
   {
-    "Suburb":"East Killara",
-    "Price":2365000
+    "Price": 2365000,
+    "Suburb": "East Killara"
   },
   {
-    "Suburb":"Eastlakes",
-    "Price":570000
+    "Price": 570000,
+    "Suburb": "Eastlakes"
   },
   {
-    "Suburb":"East Lindfield",
-    "Price":1707500
+    "Price": 1707500,
+    "Suburb": "East Lindfield"
   },
   {
-    "Suburb":"East Ryde",
-    "Price":1597500
+    "Price": 1597500,
+    "Suburb": "East Ryde"
   },
   {
-    "Suburb":"Eastwood",
-    "Price":1428000
+    "Price": 1428000,
+    "Suburb": "Eastwood"
   },
   {
-    "Suburb":"Edensor Park",
-    "Price":706000
+    "Price": 706000,
+    "Suburb": "Edensor Park"
   },
   {
-    "Suburb":"Edgecliff",
-    "Price":1450000
+    "Price": 1450000,
+    "Suburb": "Edgecliff"
   },
   {
-    "Suburb":"Edmondson Park",
-    "Price":515000
+    "Price": 515000,
+    "Suburb": "Edmondson Park"
   },
   {
-    "Suburb":"Elanora Heights",
-    "Price":1330000
+    "Price": 1330000,
+    "Suburb": "Elanora Heights"
   },
   {
-    "Suburb":"Elizabeth Bay",
-    "Price":800000
+    "Price": 800000,
+    "Suburb": "Elizabeth Bay"
   },
   {
-    "Suburb":"Elvina Bay",
-    "Price":705000
+    "Price": 705000,
+    "Suburb": "Elvina Bay"
   },
   {
-    "Suburb":"Enfield",
-    "Price":620000
+    "Price": 620000,
+    "Suburb": "Enfield"
   },
   {
-    "Suburb":"Engadine",
-    "Price":791000
+    "Price": 791000,
+    "Suburb": "Engadine"
   },
   {
-    "Suburb":"Enmore",
-    "Price":1204500
+    "Price": 1204500,
+    "Suburb": "Enmore"
   },
   {
-    "Suburb":"Epping",
-    "Price":909000
+    "Price": 909000,
+    "Suburb": "Epping"
   },
   {
-    "Suburb":"Ermington",
-    "Price":950000
+    "Price": 950000,
+    "Suburb": "Ermington"
   },
   {
-    "Suburb":"Erskine Park",
-    "Price":666250
+    "Price": 666250,
+    "Suburb": "Erskine Park"
   },
   {
-    "Suburb":"Erskineville",
-    "Price":747500
+    "Price": 747500,
+    "Suburb": "Erskineville"
   },
   {
-    "Suburb":"Eveleigh",
-    "Price":638500
+    "Price": 638500,
+    "Suburb": "Eveleigh"
   },
   {
-    "Suburb":"Fairfield",
-    "Price":463000
+    "Price": 463000,
+    "Suburb": "Fairfield"
   },
   {
-    "Suburb":"Fairfield East",
-    "Price":707500
+    "Price": 707500,
+    "Suburb": "Fairfield East"
   },
   {
-    "Suburb":"Fairfield Heights",
-    "Price":765000
+    "Price": 765000,
+    "Suburb": "Fairfield Heights"
   },
   {
-    "Suburb":"Fairfield West",
-    "Price":700000
+    "Price": 700000,
+    "Suburb": "Fairfield West"
   },
   {
-    "Suburb":"Fairlight",
-    "Price":1460000
+    "Price": 1460000,
+    "Suburb": "Fairlight"
   },
   {
-    "Suburb":"Five Dock",
-    "Price":1050000
+    "Price": 1050000,
+    "Suburb": "Five Dock"
   },
   {
-    "Suburb":"Forest Lodge",
-    "Price":812500
+    "Price": 812500,
+    "Suburb": "Forest Lodge"
   },
   {
-    "Suburb":"Forestville",
-    "Price":1200000
+    "Price": 1200000,
+    "Suburb": "Forestville"
   },
   {
-    "Suburb":"Frenchs Forest",
-    "Price":1312500
+    "Price": 1312500,
+    "Suburb": "Frenchs Forest"
   },
   {
-    "Suburb":"Freshwater",
-    "Price":750000
+    "Price": 750000,
+    "Suburb": "Freshwater"
   },
   {
-    "Suburb":"Galston",
-    "Price":655000
+    "Price": 655000,
+    "Suburb": "Galston"
   },
   {
-    "Suburb":"Georges Hall",
-    "Price":845000
+    "Price": 845000,
+    "Suburb": "Georges Hall"
   },
   {
-    "Suburb":"Girraween",
-    "Price":727500
+    "Price": 727500,
+    "Suburb": "Girraween"
   },
   {
-    "Suburb":"Gladesville",
-    "Price":780000
+    "Price": 780000,
+    "Suburb": "Gladesville"
   },
   {
-    "Suburb":"Glebe",
-    "Price":1400000
+    "Price": 1400000,
+    "Suburb": "Glebe"
   },
   {
-    "Suburb":"Glendenning",
-    "Price":578250
+    "Price": 578250,
+    "Suburb": "Glendenning"
   },
   {
-    "Suburb":"Glenfield",
-    "Price":558012
+    "Price": 558012,
+    "Suburb": "Glenfield"
   },
   {
-    "Suburb":"Glenhaven",
-    "Price":1400000
+    "Price": 1400000,
+    "Suburb": "Glenhaven"
   },
   {
-    "Suburb":"Glenorie",
-    "Price":2200000
+    "Price": 2200000,
+    "Suburb": "Glenorie"
   },
   {
-    "Suburb":"Glenwood",
-    "Price":888000
+    "Price": 888000,
+    "Suburb": "Glenwood"
   },
   {
-    "Suburb":"Gordon",
-    "Price":1492500
+    "Price": 1492500,
+    "Suburb": "Gordon"
   },
   {
-    "Suburb":"Granville",
-    "Price":567500
+    "Price": 567500,
+    "Suburb": "Granville"
   },
   {
-    "Suburb":"Grays Point",
-    "Price":1135000
+    "Price": 1135000,
+    "Suburb": "Grays Point"
   },
   {
-    "Suburb":"Great Mackerel Beach",
-    "Price":550000
+    "Price": 550000,
+    "Suburb": "Great Mackerel Beach"
   },
   {
-    "Suburb":"Greenacre",
-    "Price":833500
+    "Price": 833500,
+    "Suburb": "Greenacre"
   },
   {
-    "Suburb":"Greenfield Park",
-    "Price":695000
+    "Price": 695000,
+    "Suburb": "Greenfield Park"
   },
   {
-    "Suburb":"Green Valley",
-    "Price":624000
+    "Price": 624000,
+    "Suburb": "Green Valley"
   },
   {
-    "Suburb":"Greenwich",
-    "Price":1248000
+    "Price": 1248000,
+    "Suburb": "Greenwich"
   },
   {
-    "Suburb":"Greystanes",
-    "Price":798000
+    "Price": 798000,
+    "Suburb": "Greystanes"
   },
   {
-    "Suburb":"Guildford",
-    "Price":680000
+    "Price": 680000,
+    "Suburb": "Guildford"
   },
   {
-    "Suburb":"Guildford West",
-    "Price":650000
+    "Price": 650000,
+    "Suburb": "Guildford West"
   },
   {
-    "Suburb":"Gymea",
-    "Price":705000
+    "Price": 705000,
+    "Suburb": "Gymea"
   },
   {
-    "Suburb":"Gymea Bay",
-    "Price":1120000
+    "Price": 1120000,
+    "Suburb": "Gymea Bay"
   },
   {
-    "Suburb":"Haberfield",
-    "Price":2012500
+    "Price": 2012500,
+    "Suburb": "Haberfield"
   },
   {
-    "Suburb":"Hammondville",
-    "Price":653444
+    "Price": 653444,
+    "Suburb": "Hammondville"
   },
   {
-    "Suburb":"Harbord",
-    "Price":1100000
+    "Price": 1100000,
+    "Suburb": "Harbord"
   },
   {
-    "Suburb":"Hassall Grove",
-    "Price":576000
+    "Price": 576000,
+    "Suburb": "Hassall Grove"
   },
   {
-    "Suburb":"Haymarket",
-    "Price":864500
+    "Price": 864500,
+    "Suburb": "Haymarket"
   },
   {
-    "Suburb":"Heathcote",
-    "Price":774100
+    "Price": 774100,
+    "Suburb": "Heathcote"
   },
   {
-    "Suburb":"Hebersham",
-    "Price":480000
+    "Price": 480000,
+    "Suburb": "Hebersham"
   },
   {
-    "Suburb":"Heckenberg",
-    "Price":575000
+    "Price": 575000,
+    "Suburb": "Heckenberg"
   },
   {
-    "Suburb":"Hillsdale",
-    "Price":558000
+    "Price": 558000,
+    "Suburb": "Hillsdale"
   },
   {
-    "Suburb":"Hinchinbrook",
-    "Price":650000
+    "Price": 650000,
+    "Suburb": "Hinchinbrook"
   },
   {
-    "Suburb":"Holroyd",
-    "Price":586000
+    "Price": 586000,
+    "Suburb": "Holroyd"
   },
   {
-    "Suburb":"Holsworthy",
-    "Price":650000
+    "Price": 650000,
+    "Suburb": "Holsworthy"
   },
   {
-    "Suburb":"Homebush",
-    "Price":726000
+    "Price": 726000,
+    "Suburb": "Homebush"
   },
   {
-    "Suburb":"Homebush West",
-    "Price":570000
+    "Price": 570000,
+    "Suburb": "Homebush West"
   },
   {
-    "Suburb":"Horningsea Park",
-    "Price":749000
+    "Price": 749000,
+    "Suburb": "Horningsea Park"
   },
   {
-    "Suburb":"Hornsby",
-    "Price":693000
+    "Price": 693000,
+    "Suburb": "Hornsby"
   },
   {
-    "Suburb":"Hornsby Heights",
-    "Price":1055000
+    "Price": 1055000,
+    "Suburb": "Hornsby Heights"
   },
   {
-    "Suburb":"Horsley Park",
-    "Price":1070000
+    "Price": 1070000,
+    "Suburb": "Horsley Park"
   },
   {
-    "Suburb":"Hoxton Park",
-    "Price":655000
+    "Price": 655000,
+    "Suburb": "Hoxton Park"
   },
   {
-    "Suburb":"Hunters Hill",
-    "Price":1785000
+    "Price": 1785000,
+    "Suburb": "Hunters Hill"
   },
   {
-    "Suburb":"Huntleys Cove",
-    "Price":1127500
+    "Price": 1127500,
+    "Suburb": "Huntleys Cove"
   },
   {
-    "Suburb":"Hurlstone Park",
-    "Price":805000
+    "Price": 805000,
+    "Suburb": "Hurlstone Park"
   },
   {
-    "Suburb":"Hurstville",
-    "Price":780500
+    "Price": 780500,
+    "Suburb": "Hurstville"
   },
   {
-    "Suburb":"Hurstville Grove",
-    "Price":1350000
+    "Price": 1350000,
+    "Suburb": "Hurstville Grove"
   },
   {
-    "Suburb":"Illawong",
-    "Price":950000
+    "Price": 950000,
+    "Suburb": "Illawong"
   },
   {
-    "Suburb":"Jannali",
-    "Price":820000
+    "Price": 820000,
+    "Suburb": "Jannali"
   },
   {
-    "Suburb":"Kangaroo Point",
-    "Price":1757500
+    "Price": 1757500,
+    "Suburb": "Kangaroo Point"
   },
   {
-    "Suburb":"Kareela",
-    "Price":990000
+    "Price": 990000,
+    "Suburb": "Kareela"
   },
   {
-    "Suburb":"Kellyville",
-    "Price":962500
+    "Price": 962500,
+    "Suburb": "Kellyville"
   },
   {
-    "Suburb":"Kellyville Ridge",
-    "Price":923000
+    "Price": 923000,
+    "Suburb": "Kellyville Ridge"
   },
   {
-    "Suburb":"Kemps Creek",
-    "Price":1500000
+    "Price": 1500000,
+    "Suburb": "Kemps Creek"
   },
   {
-    "Suburb":"Kensington",
-    "Price":800000
+    "Price": 800000,
+    "Suburb": "Kensington"
   },
   {
-    "Suburb":"Kenthurst",
-    "Price":1575000
+    "Price": 1575000,
+    "Suburb": "Kenthurst"
   },
   {
-    "Suburb":"Killara",
-    "Price":1659000
+    "Price": 1659000,
+    "Suburb": "Killara"
   },
   {
-    "Suburb":"Killarney Heights",
-    "Price":1725000
+    "Price": 1725000,
+    "Suburb": "Killarney Heights"
   },
   {
-    "Suburb":"Kingsford",
-    "Price":922500
+    "Price": 922500,
+    "Suburb": "Kingsford"
   },
   {
-    "Suburb":"Kingsgrove",
-    "Price":1200000
+    "Price": 1200000,
+    "Suburb": "Kingsgrove"
   },
   {
-    "Suburb":"Kings Langley",
-    "Price":819000
+    "Price": 819000,
+    "Suburb": "Kings Langley"
   },
   {
-    "Suburb":"Kirrawee",
-    "Price":730000
+    "Price": 730000,
+    "Suburb": "Kirrawee"
   },
   {
-    "Suburb":"Kirribilli",
-    "Price":1710000
+    "Price": 1710000,
+    "Suburb": "Kirribilli"
   },
   {
-    "Suburb":"Kogarah",
-    "Price":701750
+    "Price": 701750,
+    "Suburb": "Kogarah"
   },
   {
-    "Suburb":"Kogarah Bay",
-    "Price":1252500
+    "Price": 1252500,
+    "Suburb": "Kogarah Bay"
   },
   {
-    "Suburb":"Kurnell",
-    "Price":858000
+    "Price": 858000,
+    "Suburb": "Kurnell"
   },
   {
-    "Suburb":"Kurraba Point",
-    "Price":1200000
+    "Price": 1200000,
+    "Suburb": "Kurraba Point"
   },
   {
-    "Suburb":"Kyle Bay",
-    "Price":1412500
+    "Price": 1412500,
+    "Suburb": "Kyle Bay"
   },
   {
-    "Suburb":"Lakemba",
-    "Price":414250
+    "Price": 414250,
+    "Suburb": "Lakemba"
   },
   {
-    "Suburb":"Lalor Park",
-    "Price":622500
+    "Price": 622500,
+    "Suburb": "Lalor Park"
   },
   {
-    "Suburb":"Lane Cove",
-    "Price":926500
+    "Price": 926500,
+    "Suburb": "Lane Cove"
   },
   {
-    "Suburb":"Lane Cove North",
-    "Price":801000
+    "Price": 801000,
+    "Suburb": "Lane Cove North"
   },
   {
-    "Suburb":"Lane Cove West",
-    "Price":1477500
+    "Price": 1477500,
+    "Suburb": "Lane Cove West"
   },
   {
-    "Suburb":"Lansvale",
-    "Price":720000
+    "Price": 720000,
+    "Suburb": "Lansvale"
   },
   {
-    "Suburb":"La Perouse",
-    "Price":1625000
+    "Price": 1625000,
+    "Suburb": "La Perouse"
   },
   {
-    "Suburb":"Lavender Bay",
-    "Price":820000
+    "Price": 820000,
+    "Suburb": "Lavender Bay"
   },
   {
-    "Suburb":"Leets Vale",
-    "Price":640000
+    "Price": 640000,
+    "Suburb": "Leets Vale"
   },
   {
-    "Suburb":"Leichhardt",
-    "Price":1175000
+    "Price": 1175000,
+    "Suburb": "Leichhardt"
   },
   {
-    "Suburb":"Leppington",
-    "Price":335500
+    "Price": 335500,
+    "Suburb": "Leppington"
   },
   {
-    "Suburb":"Lewisham",
-    "Price":689500
+    "Price": 689500,
+    "Suburb": "Lewisham"
   },
   {
-    "Suburb":"Liberty Grove",
-    "Price":908000
+    "Price": 908000,
+    "Suburb": "Liberty Grove"
   },
   {
-    "Suburb":"Lidcombe",
-    "Price":866000
+    "Price": 866000,
+    "Suburb": "Lidcombe"
   },
   {
-    "Suburb":"Lilli Pilli",
-    "Price":2025000
+    "Price": 2025000,
+    "Suburb": "Lilli Pilli"
   },
   {
-    "Suburb":"Lilyfield",
-    "Price":1385000
+    "Price": 1385000,
+    "Suburb": "Lilyfield"
   },
   {
-    "Suburb":"Lindfield",
-    "Price":1515000
+    "Price": 1515000,
+    "Suburb": "Lindfield"
   },
   {
-    "Suburb":"Little Bay",
-    "Price":1302500
+    "Price": 1302500,
+    "Suburb": "Little Bay"
   },
   {
-    "Suburb":"Liverpool",
-    "Price":466000
+    "Price": 466000,
+    "Suburb": "Liverpool"
   },
   {
-    "Suburb":"Loftus",
-    "Price":884750
+    "Price": 884750,
+    "Suburb": "Loftus"
   },
   {
-    "Suburb":"Longueville",
-    "Price":2940000
+    "Price": 2940000,
+    "Suburb": "Longueville"
   },
   {
-    "Suburb":"Lugarno",
-    "Price":1161000
+    "Price": 1161000,
+    "Suburb": "Lugarno"
   },
   {
-    "Suburb":"Lurnea",
-    "Price":539950
+    "Price": 539950,
+    "Suburb": "Lurnea"
   },
   {
-    "Suburb":"Macquarie Fields",
-    "Price":475000
+    "Price": 475000,
+    "Suburb": "Macquarie Fields"
   },
   {
-    "Suburb":"Macquarie Park",
-    "Price":663500
+    "Price": 663500,
+    "Suburb": "Macquarie Park"
   },
   {
-    "Suburb":"Malabar",
-    "Price":2000000
+    "Price": 2000000,
+    "Suburb": "Malabar"
   },
   {
-    "Suburb":"Manly",
-    "Price":1050000
+    "Price": 1050000,
+    "Suburb": "Manly"
   },
   {
-    "Suburb":"Manly Vale",
-    "Price":742000
+    "Price": 742000,
+    "Suburb": "Manly Vale"
   },
   {
-    "Suburb":"Maroota",
-    "Price":790000
+    "Price": 790000,
+    "Suburb": "Maroota"
   },
   {
-    "Suburb":"Maroubra",
-    "Price":1228500
+    "Price": 1228500,
+    "Suburb": "Maroubra"
   },
   {
-    "Suburb":"Marrickville",
-    "Price":778000
+    "Price": 778000,
+    "Suburb": "Marrickville"
   },
   {
-    "Suburb":"Marsfield",
-    "Price":877000
+    "Price": 877000,
+    "Suburb": "Marsfield"
   },
   {
-    "Suburb":"Mascot",
-    "Price":920000
+    "Price": 920000,
+    "Suburb": "Mascot"
   },
   {
-    "Suburb":"Matraville",
-    "Price":1330000
+    "Price": 1330000,
+    "Suburb": "Matraville"
   },
   {
-    "Suburb":"Mays Hill",
-    "Price":703500
+    "Price": 703500,
+    "Suburb": "Mays Hill"
   },
   {
-    "Suburb":"Mcgraths Hill",
-    "Price":650000
+    "Price": 650000,
+    "Suburb": "Mcgraths Hill"
   },
   {
-    "Suburb":"Mcmahons Point",
-    "Price":1150000
+    "Price": 1150000,
+    "Suburb": "Mcmahons Point"
   },
   {
-    "Suburb":"Meadowbank",
-    "Price":621000
+    "Price": 621000,
+    "Suburb": "Meadowbank"
   },
   {
-    "Suburb":"Melrose Park",
-    "Price":1447500
+    "Price": 1447500,
+    "Suburb": "Melrose Park"
   },
   {
-    "Suburb":"Menai",
-    "Price":845000
+    "Price": 845000,
+    "Suburb": "Menai"
   },
   {
-    "Suburb":"Merrylands",
-    "Price":526000
+    "Price": 526000,
+    "Suburb": "Merrylands"
   },
   {
-    "Suburb":"Merrylands West",
-    "Price":670425
+    "Price": 670425,
+    "Suburb": "Merrylands West"
   },
   {
-    "Suburb":"Middle Cove",
-    "Price":1539000
+    "Price": 1539000,
+    "Suburb": "Middle Cove"
   },
   {
-    "Suburb":"Middleton Grange",
-    "Price":672500
+    "Price": 672500,
+    "Suburb": "Middleton Grange"
   },
   {
-    "Suburb":"Miller",
-    "Price":560000
+    "Price": 560000,
+    "Suburb": "Miller"
   },
   {
-    "Suburb":"Millers Point",
-    "Price":1550000
+    "Price": 1550000,
+    "Suburb": "Millers Point"
   },
   {
-    "Suburb":"Milperra",
-    "Price":715000
+    "Price": 715000,
+    "Suburb": "Milperra"
   },
   {
-    "Suburb":"Milsons Point",
-    "Price":1650000
+    "Price": 1650000,
+    "Suburb": "Milsons Point"
   },
   {
-    "Suburb":"Minchinbury",
-    "Price":650000
+    "Price": 650000,
+    "Suburb": "Minchinbury"
   },
   {
-    "Suburb":"Miranda",
-    "Price":702500
+    "Price": 702500,
+    "Suburb": "Miranda"
   },
   {
-    "Suburb":"Mona Vale",
-    "Price":1060000
+    "Price": 1060000,
+    "Suburb": "Mona Vale"
   },
   {
-    "Suburb":"Monterey",
-    "Price":870000
+    "Price": 870000,
+    "Suburb": "Monterey"
   },
   {
-    "Suburb":"Moorebank",
-    "Price":720000
+    "Price": 720000,
+    "Suburb": "Moorebank"
   },
   {
-    "Suburb":"Mortdale",
-    "Price":740050
+    "Price": 740050,
+    "Suburb": "Mortdale"
   },
   {
-    "Suburb":"Mortlake",
-    "Price":987500
+    "Price": 987500,
+    "Suburb": "Mortlake"
   },
   {
-    "Suburb":"Mosman",
-    "Price":1758500
+    "Price": 1758500,
+    "Suburb": "Mosman"
   },
   {
-    "Suburb":"Mount Colah",
-    "Price":880000
+    "Price": 880000,
+    "Suburb": "Mount Colah"
   },
   {
-    "Suburb":"Mount Druitt",
-    "Price":441000
+    "Price": 441000,
+    "Suburb": "Mount Druitt"
   },
   {
-    "Suburb":"Mount Kuring-gai",
-    "Price":812565
+    "Price": 812565,
+    "Suburb": "Mount Kuring-gai"
   },
   {
-    "Suburb":"Mount Lewis",
-    "Price":987500
+    "Price": 987500,
+    "Suburb": "Mount Lewis"
   },
   {
-    "Suburb":"Mount Pritchard",
-    "Price":655750
+    "Price": 655750,
+    "Suburb": "Mount Pritchard"
   },
   {
-    "Suburb":"Mount Vernon",
-    "Price":1170000
+    "Price": 1170000,
+    "Suburb": "Mount Vernon"
   },
   {
-    "Suburb":"Mulgrave",
-    "Price":520000
+    "Price": 520000,
+    "Suburb": "Mulgrave"
   },
   {
-    "Suburb":"Naremburn",
-    "Price":1255000
+    "Price": 1255000,
+    "Suburb": "Naremburn"
   },
   {
-    "Suburb":"Narrabeen",
-    "Price":780000
+    "Price": 780000,
+    "Suburb": "Narrabeen"
   },
   {
-    "Suburb":"Narwee",
-    "Price":937500
+    "Price": 937500,
+    "Suburb": "Narwee"
   },
   {
-    "Suburb":"Neutral Bay",
-    "Price":905000
+    "Price": 905000,
+    "Suburb": "Neutral Bay"
   },
   {
-    "Suburb":"Newington",
-    "Price":1085000
+    "Price": 1085000,
+    "Suburb": "Newington"
   },
   {
-    "Suburb":"Newport",
-    "Price":1272500
+    "Price": 1272500,
+    "Suburb": "Newport"
   },
   {
-    "Suburb":"Newtown",
-    "Price":1070000
+    "Price": 1070000,
+    "Suburb": "Newtown"
   },
   {
-    "Suburb":"Normanhurst",
-    "Price":1044500
+    "Price": 1044500,
+    "Suburb": "Normanhurst"
   },
   {
-    "Suburb":"North Balgowlah",
-    "Price":1600000
+    "Price": 1600000,
+    "Suburb": "North Balgowlah"
   },
   {
-    "Suburb":"Northbridge",
-    "Price":2395000
+    "Price": 2395000,
+    "Suburb": "Northbridge"
   },
   {
-    "Suburb":"North Epping",
-    "Price":1335000
+    "Price": 1335000,
+    "Suburb": "North Epping"
   },
   {
-    "Suburb":"North Manly",
-    "Price":1492500
+    "Price": 1492500,
+    "Suburb": "North Manly"
   },
   {
-    "Suburb":"Northmead",
-    "Price":672500
+    "Price": 672500,
+    "Suburb": "Northmead"
   },
   {
-    "Suburb":"North Narrabeen",
-    "Price":1075000
+    "Price": 1075000,
+    "Suburb": "North Narrabeen"
   },
   {
-    "Suburb":"North Parramatta",
-    "Price":662000
+    "Price": 662000,
+    "Suburb": "North Parramatta"
   },
   {
-    "Suburb":"North Rocks",
-    "Price":980000
+    "Price": 980000,
+    "Suburb": "North Rocks"
   },
   {
-    "Suburb":"North Ryde",
-    "Price":1395000
+    "Price": 1395000,
+    "Suburb": "North Ryde"
   },
   {
-    "Suburb":"North Strathfield",
-    "Price":820000
+    "Price": 820000,
+    "Suburb": "North Strathfield"
   },
   {
-    "Suburb":"North Sydney",
-    "Price":870000
+    "Price": 870000,
+    "Suburb": "North Sydney"
   },
   {
-    "Suburb":"North Turramurra",
-    "Price":1450000
+    "Price": 1450000,
+    "Suburb": "North Turramurra"
   },
   {
-    "Suburb":"North Wahroonga",
-    "Price":1290000
+    "Price": 1290000,
+    "Suburb": "North Wahroonga"
   },
   {
-    "Suburb":"North Willoughby",
-    "Price":1800000
+    "Price": 1800000,
+    "Suburb": "North Willoughby"
   },
   {
-    "Suburb":"Northwood",
-    "Price":2445000
+    "Price": 2445000,
+    "Suburb": "Northwood"
   },
   {
-    "Suburb":"Oakhurst",
-    "Price":546250
+    "Price": 546250,
+    "Suburb": "Oakhurst"
   },
   {
-    "Suburb":"Oatlands",
-    "Price":1142500
+    "Price": 1142500,
+    "Suburb": "Oatlands"
   },
   {
-    "Suburb":"Oatley",
-    "Price":1000000
+    "Price": 1000000,
+    "Suburb": "Oatley"
   },
   {
-    "Suburb":"Old Guildford",
-    "Price":820000
+    "Price": 820000,
+    "Suburb": "Old Guildford"
   },
   {
-    "Suburb":"Old Toongabbie",
-    "Price":755000
+    "Price": 755000,
+    "Suburb": "Old Toongabbie"
   },
   {
-    "Suburb":"Oyster Bay",
-    "Price":1005500
+    "Price": 1005500,
+    "Suburb": "Oyster Bay"
   },
   {
-    "Suburb":"Paddington",
-    "Price":1600000
+    "Price": 1600000,
+    "Suburb": "Paddington"
   },
   {
-    "Suburb":"Padstow",
-    "Price":867500
+    "Price": 867500,
+    "Suburb": "Padstow"
   },
   {
-    "Suburb":"Padstow Heights",
-    "Price":871000
+    "Price": 871000,
+    "Suburb": "Padstow Heights"
   },
   {
-    "Suburb":"Pagewood",
-    "Price":1427500
+    "Price": 1427500,
+    "Suburb": "Pagewood"
   },
   {
-    "Suburb":"Palm Beach",
-    "Price":2300000
+    "Price": 2300000,
+    "Suburb": "Palm Beach"
   },
   {
-    "Suburb":"Panania",
-    "Price":883500
+    "Price": 883500,
+    "Suburb": "Panania"
   },
   {
-    "Suburb":"Parklea",
-    "Price":769000
+    "Price": 769000,
+    "Suburb": "Parklea"
   },
   {
-    "Suburb":"Peakhurst",
-    "Price":950000
+    "Price": 950000,
+    "Suburb": "Peakhurst"
   },
   {
-    "Suburb":"Peakhurst Heights",
-    "Price":1150000
+    "Price": 1150000,
+    "Suburb": "Peakhurst Heights"
   },
   {
-    "Suburb":"Pemulwuy",
-    "Price":715000
+    "Price": 715000,
+    "Suburb": "Pemulwuy"
   },
   {
-    "Suburb":"Pendle Hill",
-    "Price":748500
+    "Price": 748500,
+    "Suburb": "Pendle Hill"
   },
   {
-    "Suburb":"Pennant Hills",
-    "Price":1080000
+    "Price": 1080000,
+    "Suburb": "Pennant Hills"
   },
   {
-    "Suburb":"Penshurst",
-    "Price":770000
+    "Price": 770000,
+    "Suburb": "Penshurst"
   },
   {
-    "Suburb":"Petersham",
-    "Price":988000
+    "Price": 988000,
+    "Suburb": "Petersham"
   },
   {
-    "Suburb":"Phillip Bay",
-    "Price":1285000
+    "Price": 1285000,
+    "Suburb": "Phillip Bay"
   },
   {
-    "Suburb":"Picnic Point",
-    "Price":945000
+    "Price": 945000,
+    "Suburb": "Picnic Point"
   },
   {
-    "Suburb":"Pitt Town",
-    "Price":818888
+    "Price": 818888,
+    "Suburb": "Pitt Town"
   },
   {
-    "Suburb":"Pitt Town Bottoms",
-    "Price":1700000
+    "Price": 1700000,
+    "Suburb": "Pitt Town Bottoms"
   },
   {
-    "Suburb":"Pleasure Point",
-    "Price":620500
+    "Price": 620500,
+    "Suburb": "Pleasure Point"
   },
   {
-    "Suburb":"Plumpton",
-    "Price":550000
+    "Price": 550000,
+    "Suburb": "Plumpton"
   },
   {
-    "Suburb":"Point Piper",
-    "Price":15000000
+    "Price": 15000000,
+    "Suburb": "Point Piper"
   },
   {
-    "Suburb":"Port Hacking",
-    "Price":1205000
+    "Price": 1205000,
+    "Suburb": "Port Hacking"
   },
   {
-    "Suburb":"Potts Hill",
-    "Price":620000
+    "Price": 620000,
+    "Suburb": "Potts Hill"
   },
   {
-    "Suburb":"Potts Point",
-    "Price":625000
+    "Price": 625000,
+    "Suburb": "Potts Point"
   },
   {
-    "Suburb":"Prairiewood",
-    "Price":710000
+    "Price": 710000,
+    "Suburb": "Prairiewood"
   },
   {
-    "Suburb":"Prestons",
-    "Price":650000
+    "Price": 650000,
+    "Suburb": "Prestons"
   },
   {
-    "Suburb":"Punchbowl",
-    "Price":675000
+    "Price": 675000,
+    "Suburb": "Punchbowl"
   },
   {
-    "Suburb":"Putney",
-    "Price":2037500
+    "Price": 2037500,
+    "Suburb": "Putney"
   },
   {
-    "Suburb":"Pymble",
-    "Price":1460000
+    "Price": 1460000,
+    "Suburb": "Pymble"
   },
   {
-    "Suburb":"Pyrmont",
-    "Price":910000
+    "Price": 910000,
+    "Suburb": "Pyrmont"
   },
   {
-    "Suburb":"Queenscliff",
-    "Price":741000
+    "Price": 741000,
+    "Suburb": "Queenscliff"
   },
   {
-    "Suburb":"Queens Park",
-    "Price":1455788
+    "Price": 1455788,
+    "Suburb": "Queens Park"
   },
   {
-    "Suburb":"Ramsgate",
-    "Price":625500
+    "Price": 625500,
+    "Suburb": "Ramsgate"
   },
   {
-    "Suburb":"Ramsgate Beach",
-    "Price":670000
+    "Price": 670000,
+    "Suburb": "Ramsgate Beach"
   },
   {
-    "Suburb":"Randwick",
-    "Price":834750
+    "Price": 834750,
+    "Suburb": "Randwick"
   },
   {
-    "Suburb":"Redfern",
-    "Price":950000
+    "Price": 950000,
+    "Suburb": "Redfern"
   },
   {
-    "Suburb":"Regents Park",
-    "Price":817500
+    "Price": 817500,
+    "Suburb": "Regents Park"
   },
   {
-    "Suburb":"Revesby",
-    "Price":874000
+    "Price": 874000,
+    "Suburb": "Revesby"
   },
   {
-    "Suburb":"Revesby Heights",
-    "Price":930000
+    "Price": 930000,
+    "Suburb": "Revesby Heights"
   },
   {
-    "Suburb":"Rhodes",
-    "Price":850000
+    "Price": 850000,
+    "Suburb": "Rhodes"
   },
   {
-    "Suburb":"Riverview",
-    "Price":1988750
+    "Price": 1988750,
+    "Suburb": "Riverview"
   },
   {
-    "Suburb":"Riverwood",
-    "Price":650000
+    "Price": 650000,
+    "Suburb": "Riverwood"
   },
   {
-    "Suburb":"Rockdale",
-    "Price":640000
+    "Price": 640000,
+    "Suburb": "Rockdale"
   },
   {
-    "Suburb":"Rodd Point",
-    "Price":1640000
+    "Price": 1640000,
+    "Suburb": "Rodd Point"
   },
   {
-    "Suburb":"Rooty Hill",
-    "Price":552500
+    "Price": 552500,
+    "Suburb": "Rooty Hill"
   },
   {
-    "Suburb":"Rose Bay",
-    "Price":1677500
+    "Price": 1677500,
+    "Suburb": "Rose Bay"
   },
   {
-    "Suburb":"Rosebery",
-    "Price":756750
+    "Price": 756750,
+    "Suburb": "Rosebery"
   },
   {
-    "Suburb":"Rosehill",
-    "Price":535000
+    "Price": 535000,
+    "Suburb": "Rosehill"
   },
   {
-    "Suburb":"Roselands",
-    "Price":818000
+    "Price": 818000,
+    "Suburb": "Roselands"
   },
   {
-    "Suburb":"Roseville",
-    "Price":2000000
+    "Price": 2000000,
+    "Suburb": "Roseville"
   },
   {
-    "Suburb":"Roseville Chase",
-    "Price":2150000
+    "Price": 2150000,
+    "Suburb": "Roseville Chase"
   },
   {
-    "Suburb":"Rossmore",
-    "Price":1820000
+    "Price": 1820000,
+    "Suburb": "Rossmore"
   },
   {
-    "Suburb":"Rouse Hill",
-    "Price":1112500
+    "Price": 1112500,
+    "Suburb": "Rouse Hill"
   },
   {
-    "Suburb":"Rozelle",
-    "Price":1375000
+    "Price": 1375000,
+    "Suburb": "Rozelle"
   },
   {
-    "Suburb":"Rushcutters Bay",
-    "Price":525000
+    "Price": 525000,
+    "Suburb": "Rushcutters Bay"
   },
   {
-    "Suburb":"Russell Lea",
-    "Price":1562000
+    "Price": 1562000,
+    "Suburb": "Russell Lea"
   },
   {
-    "Suburb":"Rydalmere",
-    "Price":990000
+    "Price": 990000,
+    "Suburb": "Rydalmere"
   },
   {
-    "Suburb":"Ryde",
-    "Price":893000
+    "Price": 893000,
+    "Suburb": "Ryde"
   },
   {
-    "Suburb":"Sackville North",
-    "Price":912500
+    "Price": 912500,
+    "Suburb": "Sackville North"
   },
   {
-    "Suburb":"Sadleir",
-    "Price":550000
+    "Price": 550000,
+    "Suburb": "Sadleir"
   },
   {
-    "Suburb":"Sandy Point",
-    "Price":790000
+    "Price": 790000,
+    "Suburb": "Sandy Point"
   },
   {
-    "Suburb":"Sans Souci",
-    "Price":820000
+    "Price": 820000,
+    "Suburb": "Sans Souci"
   },
   {
-    "Suburb":"Schofields",
-    "Price":725000
+    "Price": 725000,
+    "Suburb": "Schofields"
   },
   {
-    "Suburb":"Scotland Island",
-    "Price":593500
+    "Price": 593500,
+    "Suburb": "Scotland Island"
   },
   {
-    "Suburb":"Seaforth",
-    "Price":2020000
+    "Price": 2020000,
+    "Suburb": "Seaforth"
   },
   {
-    "Suburb":"Sefton",
-    "Price":715000
+    "Price": 715000,
+    "Suburb": "Sefton"
   },
   {
-    "Suburb":"Seven Hills",
-    "Price":677000
+    "Price": 677000,
+    "Suburb": "Seven Hills"
   },
   {
-    "Suburb":"Silverwater",
-    "Price":428010
+    "Price": 428010,
+    "Suburb": "Silverwater"
   },
   {
-    "Suburb":"Smithfield",
-    "Price":638500
+    "Price": 638500,
+    "Suburb": "Smithfield"
   },
   {
-    "Suburb":"South Coogee",
-    "Price":1354500
+    "Price": 1354500,
+    "Suburb": "South Coogee"
   },
   {
-    "Suburb":"South Granville",
-    "Price":750000
+    "Price": 750000,
+    "Suburb": "South Granville"
   },
   {
-    "Suburb":"South Hurstville",
-    "Price":900000
+    "Price": 900000,
+    "Suburb": "South Hurstville"
   },
   {
-    "Suburb":"South Maroota",
-    "Price":650000
+    "Price": 650000,
+    "Suburb": "South Maroota"
   },
   {
-    "Suburb":"South Turramurra",
-    "Price":1341000
+    "Price": 1341000,
+    "Suburb": "South Turramurra"
   },
   {
-    "Suburb":"South Wentworthville",
-    "Price":570000
+    "Price": 570000,
+    "Suburb": "South Wentworthville"
   },
   {
-    "Suburb":"South Windsor",
-    "Price":475000
+    "Price": 475000,
+    "Suburb": "South Windsor"
   },
   {
-    "Suburb":"Stanhope Gardens",
-    "Price":895000
+    "Price": 895000,
+    "Suburb": "Stanhope Gardens"
   },
   {
-    "Suburb":"Stanmore",
-    "Price":1148000
+    "Price": 1148000,
+    "Suburb": "Stanmore"
   },
   {
-    "Suburb":"St Clair",
-    "Price":611000
+    "Price": 611000,
+    "Suburb": "St Clair"
   },
   {
-    "Suburb":"St Ives",
-    "Price":1517500
+    "Price": 1517500,
+    "Suburb": "St Ives"
   },
   {
-    "Suburb":"St Ives Chase",
-    "Price":1682000
+    "Price": 1682000,
+    "Suburb": "St Ives Chase"
   },
   {
-    "Suburb":"St Johns Park",
-    "Price":757000
+    "Price": 757000,
+    "Suburb": "St Johns Park"
   },
   {
-    "Suburb":"St Leonards",
-    "Price":925000
+    "Price": 925000,
+    "Suburb": "St Leonards"
   },
   {
-    "Suburb":"St Peters",
-    "Price":995000
+    "Price": 995000,
+    "Suburb": "St Peters"
   },
   {
-    "Suburb":"Strathfield",
-    "Price":1385000
+    "Price": 1385000,
+    "Suburb": "Strathfield"
   },
   {
-    "Suburb":"Strathfield South",
-    "Price":1200000
+    "Price": 1200000,
+    "Suburb": "Strathfield South"
   },
   {
-    "Suburb":"Summer Hill",
-    "Price":865500
+    "Price": 865500,
+    "Suburb": "Summer Hill"
   },
   {
-    "Suburb":"Sutherland",
-    "Price":585000
+    "Price": 585000,
+    "Suburb": "Sutherland"
   },
   {
-    "Suburb":"Sydenham",
-    "Price":890000
+    "Price": 890000,
+    "Suburb": "Sydenham"
   },
   {
-    "Suburb":"Sydney",
-    "Price":910000
+    "Price": 910000,
+    "Suburb": "Sydney"
   },
   {
-    "Suburb":"Sylvania",
-    "Price":902000
+    "Price": 902000,
+    "Suburb": "Sylvania"
   },
   {
-    "Suburb":"Sylvania Waters",
-    "Price":1651000
+    "Price": 1651000,
+    "Suburb": "Sylvania Waters"
   },
   {
-    "Suburb":"Taren Point",
-    "Price":1616500
+    "Price": 1616500,
+    "Suburb": "Taren Point"
   },
   {
-    "Suburb":"Telopea",
-    "Price":900000
+    "Price": 900000,
+    "Suburb": "Telopea"
   },
   {
-    "Suburb":"Tempe",
-    "Price":1030000
+    "Price": 1030000,
+    "Suburb": "Tempe"
   },
   {
-    "Suburb":"Tennyson Point",
-    "Price":1825000
+    "Price": 1825000,
+    "Suburb": "Tennyson Point"
   },
   {
-    "Suburb":"Terrey Hills",
-    "Price":1480000
+    "Price": 1480000,
+    "Suburb": "Terrey Hills"
   },
   {
-    "Suburb":"The Ponds",
-    "Price":955444
+    "Price": 955444,
+    "Suburb": "The Ponds"
   },
   {
-    "Suburb":"The Rocks",
-    "Price":1250000
+    "Price": 1250000,
+    "Suburb": "The Rocks"
   },
   {
-    "Suburb":"Thornleigh",
-    "Price":975500
+    "Price": 975500,
+    "Suburb": "Thornleigh"
   },
   {
-    "Suburb":"Toongabbie",
-    "Price":660000
+    "Price": 660000,
+    "Suburb": "Toongabbie"
   },
   {
-    "Suburb":"Turramurra",
-    "Price":1500000
+    "Price": 1500000,
+    "Suburb": "Turramurra"
   },
   {
-    "Suburb":"Turrella",
-    "Price":915000
+    "Price": 915000,
+    "Suburb": "Turrella"
   },
   {
-    "Suburb":"Ultimo",
-    "Price":300000
+    "Price": 300000,
+    "Suburb": "Ultimo"
   },
   {
-    "Suburb":"Vaucluse",
-    "Price":2270500
+    "Price": 2270500,
+    "Suburb": "Vaucluse"
   },
   {
-    "Suburb":"Villawood",
-    "Price":450000
+    "Price": 450000,
+    "Suburb": "Villawood"
   },
   {
-    "Suburb":"Voyager Point",
-    "Price":710000
+    "Price": 710000,
+    "Suburb": "Voyager Point"
   },
   {
-    "Suburb":"Wahroonga",
-    "Price":1240000
+    "Price": 1240000,
+    "Suburb": "Wahroonga"
   },
   {
-    "Suburb":"Waitara",
-    "Price":653500
+    "Price": 653500,
+    "Suburb": "Waitara"
   },
   {
-    "Suburb":"Wakeley",
-    "Price":650000
+    "Price": 650000,
+    "Suburb": "Wakeley"
   },
   {
-    "Suburb":"Wareemba",
-    "Price":708737
+    "Price": 708737,
+    "Suburb": "Wareemba"
   },
   {
-    "Suburb":"Warrawee",
-    "Price":1797500
+    "Price": 1797500,
+    "Suburb": "Warrawee"
   },
   {
-    "Suburb":"Warriewood",
-    "Price":790000
+    "Price": 790000,
+    "Suburb": "Warriewood"
   },
   {
-    "Suburb":"Warwick Farm",
-    "Price":385000
+    "Price": 385000,
+    "Suburb": "Warwick Farm"
   },
   {
-    "Suburb":"Waterfall",
-    "Price":770000
+    "Price": 770000,
+    "Suburb": "Waterfall"
   },
   {
-    "Suburb":"Waterloo",
-    "Price":800000
+    "Price": 800000,
+    "Suburb": "Waterloo"
   },
   {
-    "Suburb":"Wattle Grove",
-    "Price":723500
+    "Price": 723500,
+    "Suburb": "Wattle Grove"
   },
   {
-    "Suburb":"Waverley",
-    "Price":1510000
+    "Price": 1510000,
+    "Suburb": "Waverley"
   },
   {
-    "Suburb":"Waverton",
-    "Price":1108000
+    "Price": 1108000,
+    "Suburb": "Waverton"
   },
   {
-    "Suburb":"Wentworth Point",
-    "Price":668000
+    "Price": 668000,
+    "Suburb": "Wentworth Point"
   },
   {
-    "Suburb":"Wentworthville",
-    "Price":849995
+    "Price": 849995,
+    "Suburb": "Wentworthville"
   },
   {
-    "Suburb":"West Hoxton",
-    "Price":724500
+    "Price": 724500,
+    "Suburb": "West Hoxton"
   },
   {
-    "Suburb":"Westleigh",
-    "Price":1153500
+    "Price": 1153500,
+    "Suburb": "Westleigh"
   },
   {
-    "Suburb":"Westmead",
-    "Price":575000
+    "Price": 575000,
+    "Suburb": "Westmead"
   },
   {
-    "Suburb":"West Pennant Hills",
-    "Price":1420500
+    "Price": 1420500,
+    "Suburb": "West Pennant Hills"
   },
   {
-    "Suburb":"West Pymble",
-    "Price":1400000
+    "Price": 1400000,
+    "Suburb": "West Pymble"
   },
   {
-    "Suburb":"West Ryde",
-    "Price":917500
+    "Price": 917500,
+    "Suburb": "West Ryde"
   },
   {
-    "Suburb":"Wetherill Park",
-    "Price":752250
+    "Price": 752250,
+    "Suburb": "Wetherill Park"
   },
   {
-    "Suburb":"Whalan",
-    "Price":465000
+    "Price": 465000,
+    "Suburb": "Whalan"
   },
   {
-    "Suburb":"Whale Beach",
-    "Price":3150000
+    "Price": 3150000,
+    "Suburb": "Whale Beach"
   },
   {
-    "Suburb":"Wheeler Heights",
-    "Price":1175000
+    "Price": 1175000,
+    "Suburb": "Wheeler Heights"
   },
   {
-    "Suburb":"Wiley Park",
-    "Price":416000
+    "Price": 416000,
+    "Suburb": "Wiley Park"
   },
   {
-    "Suburb":"Willoughby",
-    "Price":1107000
+    "Price": 1107000,
+    "Suburb": "Willoughby"
   },
   {
-    "Suburb":"Willoughby East",
-    "Price":2125000
+    "Price": 2125000,
+    "Suburb": "Willoughby East"
   },
   {
-    "Suburb":"Windsor",
-    "Price":690000
+    "Price": 690000,
+    "Suburb": "Windsor"
   },
   {
-    "Suburb":"Wolli Creek",
-    "Price":709000
+    "Price": 709000,
+    "Suburb": "Wolli Creek"
   },
   {
-    "Suburb":"Wollstonecraft",
-    "Price":957500
+    "Price": 957500,
+    "Suburb": "Wollstonecraft"
   },
   {
-    "Suburb":"Woodcroft",
-    "Price":671000
+    "Price": 671000,
+    "Suburb": "Woodcroft"
   },
   {
-    "Suburb":"Woodpark",
-    "Price":712500
+    "Price": 712500,
+    "Suburb": "Woodpark"
   },
   {
-    "Suburb":"Woollahra",
-    "Price":1875000
+    "Price": 1875000,
+    "Suburb": "Woollahra"
   },
   {
-    "Suburb":"Woolloomooloo",
-    "Price":844500
+    "Price": 844500,
+    "Suburb": "Woolloomooloo"
   },
   {
-    "Suburb":"Woolooware",
-    "Price":1140000
+    "Price": 1140000,
+    "Suburb": "Woolooware"
   },
   {
-    "Suburb":"Woolwich",
-    "Price":7650000
+    "Price": 7650000,
+    "Suburb": "Woolwich"
   },
   {
-    "Suburb":"Woronora",
-    "Price":910000
+    "Price": 910000,
+    "Suburb": "Woronora"
   },
   {
-    "Suburb":"Woronora Heights",
-    "Price":970000
+    "Price": 970000,
+    "Suburb": "Woronora Heights"
   },
   {
-    "Suburb":"Yagoona",
-    "Price":760000
+    "Price": 760000,
+    "Suburb": "Yagoona"
   },
   {
-    "Suburb":"Yarrawarrah",
-    "Price":918000
+    "Price": 918000,
+    "Suburb": "Yarrawarrah"
   },
   {
-    "Suburb":"Yennora",
-    "Price":342100
+    "Price": 342100,
+    "Suburb": "Yennora"
   },
   {
-    "Suburb":"Yowie Bay",
-    "Price":1360000
+    "Price": 1360000,
+    "Suburb": "Yowie Bay"
   },
   {
-    "Suburb":"Zetland",
-    "Price":805000
+    "Price": 805000,
+    "Suburb": "Zetland"
   }
-]'
+]
