@@ -1,6 +1,4 @@
-$(function(){
-  var suburbs = [
-     { value: 'Abbotsbury'},
+    { value: 'Abbotsbury'},
     { value: 'Abbotsbury'},
     { value: 'Abbotsford'},
     { value: 'Alexandria'},
@@ -491,17 +489,4 @@ $(function(){
     { value: 'Yennora'},
     { value: 'Yowie Bay'}          ,
     { value: 'Zetland'},
-    { value: 'Zetland'},
-  ];
-  
-  // setup autocomplete function pulling from currencies[] array
-  $('#locationField').autocomplete({
-    lookup: suburbs,
-    onSelect: function (suggestion) {
-      var thehtml = '<strong>Currency Name:</strong> ' + suggestion.value + ' <br> <strong>Symbol:</strong> ' + suggestion.data;
-      $('#outputcontent').html(thehtml);
-    }
-  });
-  
-
-});
+	{ value: 'Zetland'},
