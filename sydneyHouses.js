@@ -727,6 +727,12 @@ eightypercent.textContent = 'It will take: ' + eytyth + ' years to afford a $' +
 
 var subButton = document.getElementById('subButton');
 subButton.addEventListener('click', function() {
+
+	validateLocation();
+	validateIncome();
+
+	if (validateIncome() == 1 && validateLocation() == 1) {
+
     incomeRecord();
     locationRecord();
     housePriceRecord();
@@ -738,4 +744,40 @@ subButton.addEventListener('click', function() {
     printSixty();
     printSeventy();
     printEighty();
+
+	}
 });
+
+function validateIncome(elem, helperMsg){
+  var elem = document.getElementById('incomeField');
+  var helperMsg = 'Please enter your income';
+  var numericExpression = /^[0-9\,\.]+$/;
+  if(elem.value.match(numericExpression)){
+    return true;
+  }else{
+    alert(helperMsg);
+    elem.focus();
+    return false;
+  }
+}
+
+
+function validateLocation(){
+	var elem = document.getElementById('locationField').value;
+	var array = locations;
+    var IsInArr = function(needle, haystack){
+        for (var i = 0; i < haystack.length; i++) {
+            if (haystack[i].price == needle) {
+                return true;
+            }
+        }
+        return false;
+    };
+    if (IsInArr(elem, array)) {
+        return true;
+    } else if (elem.length == 0) {
+        alert('Please enter a suburb');
+    } else {
+        alert('That suburb is not in our database');	
+    }
+}
