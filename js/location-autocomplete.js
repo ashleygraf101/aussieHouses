@@ -491,11 +491,10 @@ $(function(){
     { value: 'Yennora'},
     { value: 'Yowie Bay'}          ,
     { value: 'Zetland'},
-    { value: 'Zetland'},
   ];
   
   // setup autocomplete function pulling from currencies[] array
-  $('#locationField').autocomplete({
+  $('#suburbField').autocomplete({
     lookup: suburbs,
     onSelect: function (suggestion) {
       var thehtml = '<strong>Currency Name:</strong> ' + suggestion.value + ' <br> <strong>Symbol:</strong> ' + suggestion.data;

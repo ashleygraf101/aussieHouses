@@ -16,47 +16,105 @@
   <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
   <script type="text/javascript" src="js/jquery.autocomplete.min.js"></script>
   <script type="text/javascript" src="js/location-autocomplete.js"></script>
+<link rel="stylesheet" href="http://cdn.jsdelivr.net/bootflat/2.0.0/css/bootflat.css">
+<link rel="stylesheet" href="http://ajax.microsoft.com/ajax/jquery.validate/1.7/jquery.validate.min.js">
 
 <title="Sydney Housing Prices"></title>
 
-<div class="wrapper">
+<div class='wrapper'>
+<p id="savings"><h1>First Home Buyer?</h1></p>
 
-<p id="locationData">All data taken from www.onthehouse.com.au, and is accurate up to July 2015. Some suburbs may not be included in this dataset. All deposit prices assume you have taken out mortgage insurance. </p>
+
+<div class="widget">
+    <p>This is a guide to how long it will take you, on your post-tax yearly income, to save up for a deposit in your dream suburb. </p>
+        </div>
+<div class="widget">
+<p>All data is gathered from www.onthehouse.com.au and www.realestate.com.au. Some suburbs may not be included in this dataset. All deposit prices assume you have taken out mortgage insurance.</p>
+</div>
+<div class="widget">
 <p id="developer">The developer of this project is Ashley Graf. You can contact her at ashley.graf101@gmail.com</p>
+</div>
 
+<div>
 <form role="form">
   <div class="row">
   	<label class="col-xs-4" for="incomeField">Post-Tax Yearly Income</label>
-    <div class="col-xs-8"><input type="number" step="any" class="form-control" id="incomeField" placeholder="Income" required></div>
+    <div class="col-xs-8 col-md-6 col-lg-10"><input type="number" step="any" class="form-control" id="incomeField" placeholder="Income" required></div>
   </div>
   <div class="row">
-    <label class="col-xs-4" for="locationField">Location</label>
-    <div class="col-xs-8"><input type="text" class="form-control" id="locationField" placeholder="Location" required></div>
+    <label class="col-xs-4" for="suburbField">Suburb</label>
+    <div class="col-xs-8 col-md-6 col-lg-10"><input type="text" class="form-control" id="suburbField" placeholder="Suburb" required></div>
+    <label class="col-xs-4" for="stateField">State</label>
+    <div class="col-xs-8 col-md-6 col-lg-10"><input type="text" class="form-control" id="stateField" placeholder="State" required></div>
   </div>
   <div class="row">
-    <div class="col-xs-12">
-      <button type='button' id='subButton' class="btn btn-default">How long will it take?</button>
+    <div class="col-xs-12 col-md-8 col-lg-10">
+      <button type='button' id='subButton' class="btn btn-default">Tell Me</button>
     </div>
   </div>
 </form>
     
+    <br>
+    <br>
 <div>
     <p id='incomeLevel'></p>
-</div>
-<div>
     <p id='location'></p>
-    <p id='price'></p>
+
+<div class="row">
+        <div class="col-md-4">
+
+
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <h3 class="panel-title">Median Price</h3>
+              </div>
+              <div class="panel-body">
+                  <p id="price" ></p>
+              </div>
+            </div>
+
+
+        </div>
+        <div class="col-md-4">  
+
+
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <h3 class="panel-title">Deposit Price</h3>
+              </div>
+              <div class="panel-body">
+                  <p id="depositPrice" ></p>
+              </div>
+            </div>
+
+
+
+         </div>
+        <div class="col-md-4">   
+
+
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <h3 class="panel-title">Data Source</h3>
+              </div>
+              <div class="panel-body">
+ <p id="sourced"></p>
+              </div>
+            </div>
 </div>
-<div>
-        <p id='tenpercent'></p>
-        <p id='twentypercent'></p>
-        <p id='thirtypercent'></p>
-        <p id='fourtypercent'></p>
-        <p id='fiftypercent'></p>
-        <p id='sixtypercent'></p>
-        <p id='seventypercent'></p>
-        <p id='eightypercent'></p>
-        <p id='ninetypercent'></p>
+</div>
+<div >
+
+        <ul class="list-group">
+        <li class="list-group-item"><span class="badge badge-default">10%</span><p id='tenpercent'></p></li>
+        <li class="list-group-item"><span class="badge badge">20%</span><p id='twentypercent'></p></li>
+        <li class="list-group-item"><span class="badge badge">30%</span><p id='thirtypercent'></p></li>
+        <li class="list-group-item"><span class="badge badge-primary">40%</span><p id='fourtypercent'></p></li>
+        <li class="list-group-item"><span class="badge badge-success">50%</span><p id='fiftypercent'></p></li>
+        <li class="list-group-item"><span class="badge badge-warning">60%</span><p id='sixtypercent'></p></li>
+        <li class="list-group-item"><span class="badge badge-danger">70%</span><p id='seventypercent'></p></li>
+        <li class="list-group-item"><span class="badge badge-danger">80%</span><p id='eightypercent'></p></li>
+        </ul>
 </div>
     </div>
 
