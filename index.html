@@ -36,9 +36,8 @@
 <p id="developer">The developer of this project is Ashley Graf. You can contact her at ashley.graf101@gmail.com</p>
 </div>
 
-<div class="container">
 
-<form id="form1" name="form1"> 
+<!-- <form id="form1" name="form1"> 
     <div class="form-group">
         <label for="incomeField" class="col-xs-2 control-label">Income</label>
         <input name="incomeField"  id="incomeField" type="text" placeholder="post-tax yearly income"/>
@@ -50,14 +49,39 @@
     <div class="form-group">
         <label for="suburbField" class="col-xs-2 control-label">Suburb</label><input name="suburbField" id="suburbField"  type="text" placeholder="dream suburb"/>
         </div>
+</form> -->
+
+<form class="form-horizontal" id="form1" name="form1">
+    <div class="form-group has-feedback">
+        <label for="incomeField" class="control-label col-md-6">Income:</label>
+        <div class="col-md-6">
+            <input type="text" steps="any" name="incomeField" id="incomeField" class="form-control" placeholder="post-tax yearly income" />
+            <span class="glyphicon form-control-feedback" id="incomeField1"></span>
+       </div>
+    </div>
+    <div class="form-group has-feedback">
+        <label for="suburbField" class="control-label col-md-6">Suburb</label>
+        <div class="col-md-6">
+            <input type="text" name="suburbField" id="suburbField" class="form-control" placeholder="dream suburb" />
+            <span class="glyphicon form-control-feedback" id="suburbField1"></span>
+        </div>
+    </div>  
+    <div class="form-group has-feedback">
+        <label for="stateField" class="control-label col-md-6">State</label>
+        <div class="col-md-6">
+            <input type="text" name="stateField" id="stateField" class="form-control" placeholder="state" />
+            <span class="glyphicon form-control-feedback" id="stateField1"></span>
+        </div>
+    </div>  
 </form>
 
+
+
+
 <div>
-    <input id="btn" type="button" value="Validate"/>
+    <input id="btn" type="button" value="Tell Me Now" class="btn btn-primary"/>
 </div>
     
-
-</div>
 
 <div class="row">
         <div class="col-md-4">

@@ -493,14 +493,33 @@ $(function(){
     { value: 'Zetland'},
   ];
   
+  var states = [
+     { value: 'NSW'},
+    { value: 'VIC'},
+    { value: 'ACT'},
+    { value: 'WA'},
+    { value: 'SA'}          ,
+    { value: 'NT'}          ,
+    { value: 'QLD'},
+    { value: 'TAS'}    ,
+];
+
+
   // setup autocomplete function pulling from currencies[] array
   $('#suburbField').autocomplete({
     lookup: suburbs,
     onSelect: function (suggestion) {
-      var thehtml = '<strong>Currency Name:</strong> ' + suggestion.value + ' <br> <strong>Symbol:</strong> ' + suggestion.data;
+      var thehtml = '<strong>suburb Name:</strong> ' + suggestion.value + ' <br> <strong>Symbol:</strong> ' + suggestion.data;
       $('#outputcontent').html(thehtml);
     }
   });
   
+  $('#stateField').autocomplete({
+    lookup: states,
+    onSelect: function (suggestion) {
+      var thehtml = '<strong>state Name:</strong> ' + suggestion.value + ' <br> <strong>Symbol:</strong> ' + suggestion.data;
+      $('#outputcontent').html(thehtml);
+    }
+  });
 
 });
