@@ -231,7 +231,7 @@ a:hover { text-decoration: underline; }
 .autocomplete-suggestions strong { font-weight: normal; color: #3399ff; }
 
 
-input:valid {
+/*input:valid {
     color: green;
       border: 1px solid green;
 }
@@ -244,4 +244,4 @@ input:valid ~ .input-validation::before {
 input:invalid {
     color: red;
     border: 1px solid red;
-}
+}*/

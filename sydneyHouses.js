@@ -15731,7 +15731,7 @@ function housePriceRecord() {
     price.textContent = '$' + houseCost;       
 
     if (houseCost == 'N/A') {
-    	alert('there is no recent data for this suburb');
+    	alert('There is no recent data on this suburb');
     }
 }
 
@@ -15932,29 +15932,29 @@ var eightypercent = document.getElementById('eightypercent');
 eightypercent.textContent = eytyth + ' years';
 }
 
-var subButton = document.getElementById('subButton');
-subButton.addEventListener('click', function() {
+// var subButton = document.getElementById('subButton');
+// subButton.addEventListener('click', function() {
 
-	validateSuburb();
-	validateIncome();
-	validateState();
+// 	// validateSuburb();
+// 	// validateIncome();
+// 	// validateState();
 
-	if (validateIncome() && validateSuburb() && validateState) {
+// 	// if (validateIncome() && validateSuburb() && validateState) {
 
-	depositRecord();
-    housePriceRecord();
-    sourceRecord();
-    printTen();
-    printTwenty();
-    printThirty();
-    printForty();
-    printFifty();
-    printSixty();
-    printSeventy();
-    printEighty();
+// 	depositRecord();
+//     housePriceRecord();
+//     sourceRecord();
+//     printTen();
+//     printTwenty();
+//     printThirty();
+//     printForty();
+//     printFifty();
+//     printSixty();
+//     printSeventy();
+//     printEighty();
 
-    }
-});
+//     // }
+// });
 
 function validateIncome(elem, helperMsg){
   var elem = document.getElementById('incomeField');
@@ -16012,3 +16012,67 @@ function validateState(){
         alert(helperMsg2);	
     }
 }
+
+
+    $("#form1").validate({
+        rules: {
+            suburbField: "required",
+            incomeField: "required",
+            stateField: "required"
+        },
+        messages: {
+            suburbField: "Please specify your suburb",
+            incomeField: "Please specify your income",
+            stateField: "Please specify your state"
+
+        }
+    })
+
+    $('#btn').click(function() {
+        if ($("#form1").valid()) {
+         
+            depositRecord();
+            housePriceRecord();
+            sourceRecord();
+            printTen();
+            printTwenty();
+            printThirty();
+            printForty();
+            printFifty();
+            printSixty();
+            printSeventy();
+            printEighty();
+            
+        }
+    });
+
+
+
+    // $('#btn').click(function () {
+
+
+    //     if ($("#form1").valid()) {
+        
+    //         depositRecord();
+    //         housePriceRecord();
+    //         sourceRecord();
+    //         printTen();
+    //         printTwenty();
+    //         printThirty();
+    //         printForty();
+    //         printFifty();
+    //         printSixty();
+    //         printSeventy();
+    //         printEighty();
+
+    //       }
+
+    // });
+
+// var subButton = document.getElementById('subButton');
+// subButton.addEventListener('click', function() {
+
+//     validateFormOnSubmit();
+// }
+
+// });

@@ -18,3 +18,9 @@
   padding:4px 6px;
   box-shadow:0 0 4px rgba(0, 0, 0, 0.15);
 }
+
+a {
+    display: block;
+    position: absolute;
+    bottom: 0;
+}
