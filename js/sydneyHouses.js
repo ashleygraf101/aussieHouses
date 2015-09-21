@@ -15792,7 +15792,6 @@ function depositTenth() {
 function printTen() {
     var tenth = depositTenth();
     var twntyth = depositTwentyPercent();
-    var depositNumber = deposit();
     var tenpercent = document.getElementById('tenpercent');
 
     tenpercent.textContent =  tenth + ' years';
@@ -15812,7 +15811,6 @@ return twntyP;
 }
 function printTwenty() {
 var twntyth = depositTwentyPercent();
-var depositNumber = deposit();
 var twentypercent = document.getElementById('twentypercent');
 twentypercent.textContent = twntyth + ' years';
 }
@@ -15830,7 +15828,6 @@ return thrtyP;
 }
 function printThirty() {
 var thrtyth = depositThirtyPercent();
-var depositNumber = deposit();
 var thirtypercent = document.getElementById('thirtypercent');
 thirtypercent.textContent = thrtyth + ' years';
 }
@@ -15849,7 +15846,6 @@ return fiftyP;
 }
 function printForty() {
 var fortyth = depositFortyPercent();
-var depositNumber = deposit();
 var fourtypercent = document.getElementById('fourtypercent');
 fourtypercent.textContent = fortyth + ' years';
 }
@@ -15868,7 +15864,6 @@ return fiftyP;
 }
 function printFifty() {
 var fftyth = depositFiftyPercent();
-var depositNumber = deposit();
 var fiftypercent = document.getElementById('fiftypercent');
 fiftypercent.textContent =  fftyth + ' years';
 }
@@ -15887,7 +15882,6 @@ return sixtyP;
 }
 function printSixty() {
 var sxtyth = depositSixtyPercent();
-var depositNumber = deposit();
 var sixtypercent = document.getElementById('sixtypercent');
 sixtypercent.textContent =  sxtyth + ' years';
 }
@@ -15898,19 +15892,29 @@ var incomeNumber = getUserIncome();
 var seventyPercent = incomeNumber * (7 / 10);
 return seventyPercent;
 }
-function depositSeventyPercent() {
+
+function depositSeventyPercent() { 
 var depositNumber = deposit();
 var seventyPercent = getUserSeventyPercent();
 var input = depositNumber / seventyPercent;
 var seventyP = Math.round(input*10)/10;
 return seventyP;
 }
+
+
 function printSeventy() {
-var svntyth = depositSeventyPercent();
-var depositNumber = deposit();
+var svntyth = depositEightyPercent(); 
 var seventypercent = document.getElementById('seventypercent');
-seventypercent.textContent =  svntyth + ' years';
+seventypercent.textContent = svntyth + ' years';
 }
+
+// $( "seventypercent" ).html(function() {
+// var svntyth = depositSeventyPercent();
+// var surroundLeft = "<li class=\"list-group-item\"><span class=\"badge badge-danger\">70%</span>";
+// var surroundRight = "</p></li>";
+// var value = svntyth + ' years';
+// return surroundLeft + value + surroundRight;
+// });
 
 
 function getUserEightyPercent() {
@@ -15927,7 +15931,6 @@ return eightyP;
 }
 function printEighty() {
 var eytyth = depositEightyPercent();
-var depositNumber = deposit();
 var eightypercent = document.getElementById('eightypercent');
 eightypercent.textContent = eytyth + ' years';
 }

@@ -24,3 +24,7 @@ a {
     position: absolute;
     bottom: 0;
 }
+
+#form1 {
+  padding:20px;
+}
