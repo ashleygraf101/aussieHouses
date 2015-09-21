@@ -79,10 +79,15 @@ jQuery.validator.addMethod("validateSuburb", function(value, element, params) {
             }
         },
         messages: {
-            suburbField: "Please specify your suburb",
+            suburbField:  {
+                    required: "Please specify your suburb",
+                    validateSuburb: "This state is not in the database"
+                    },
             incomeField: "Please specify your income",
-            stateField: "Please specify your state"
-
+            stateField:  {
+                    required: "Please specify your state",
+                    validateState: "This state is not in Australia"
+                    },
         },
     highlight: function(element) {
         var id_attr = "#" + $( element ).attr("id") + "1";
