@@ -15743,8 +15743,41 @@ function getUserLocation() {
 
 function getUserIncome() {
     var incomeField = document.getElementById('incomeField').value;
-    return incomeField;
+
+        // psuedo
+        // tax = (income - untaxed) * percentage
+        // posttaxincome = income - tax
+
+    if (incomeField <= 18200) {
+        var postTax = incomeField;
+    } else if (incomeField >= 18201 && incomeField <= 37000) {
+        var unTaxed = 18200;
+        var tax = (incomeField - unTaxed) * (19/100) ;
+        var postTaxIncome = incomeField - tax;
+        var postTax = postTaxIncome;
+
+    } else if (incomeField >= 37001 && incomeField <= 80000) {
+        var min = 3572;
+        var floor = 37000;
+        var tax = ((incomeField - floor) * 32.5) + min;
+        var postTaxIncome = incomeField - tax;
+        var postTax = postTaxIncome;   
+     } else if (incomeField >= 80001 && incomeField <= 180000) {
+        var min = 17547;
+        var floor = 80000;
+        var tax = ((incomeField - floor) * 37) + min;
+        var postTaxIncome = incomeField - tax;
+        var postTax = postTaxIncome;  
+     } else {
+        var min = 54547;
+        var floor = 180000;
+        var tax = ((incomeField - floor) * 45) + min;
+        var postTaxIncome = incomeField - tax;
+        var postTax = postTaxIncome;  
+     }
+    return postTax;
 }
+
 
 function incomeRecord() {
     var incomeNumber = getUserIncome();
@@ -15907,15 +15940,6 @@ var svntyth = depositEightyPercent();
 var seventypercent = document.getElementById('seventypercent');
 seventypercent.textContent = svntyth + ' years';
 }
-
-// $( "seventypercent" ).html(function() {
-// var svntyth = depositSeventyPercent();
-// var surroundLeft = "<li class=\"list-group-item\"><span class=\"badge badge-danger\">70%</span>";
-// var surroundRight = "</p></li>";
-// var value = svntyth + ' years';
-// return surroundLeft + value + surroundRight;
-// });
-
 
 function getUserEightyPercent() {
 var incomeNumber = getUserIncome();
