@@ -15759,24 +15759,25 @@ function getUserIncome() {
     } else if (incomeField >= 37001 && incomeField <= 80000) {
         var min = 3572;
         var floor = 37000;
-        var tax = ((incomeField - floor) * 32.5) + min;
+        var tax = ((incomeField - floor) * 32.5/100) + min;
         var postTaxIncome = incomeField - tax;
         var postTax = postTaxIncome;   
      } else if (incomeField >= 80001 && incomeField <= 180000) {
         var min = 17547;
         var floor = 80000;
-        var tax = ((incomeField - floor) * 37) + min;
+        var tax = ((incomeField - floor) * 37/100) + min;
         var postTaxIncome = incomeField - tax;
         var postTax = postTaxIncome;  
      } else {
         var min = 54547;
         var floor = 180000;
-        var tax = ((incomeField - floor) * 45) + min;
+        var tax = ((incomeField - floor) * 45/100) + min;
         var postTaxIncome = incomeField - tax;
         var postTax = postTaxIncome;  
      }
     return postTax;
 }
+
 
 
 function incomeRecord() {
