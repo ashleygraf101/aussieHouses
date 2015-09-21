@@ -514,12 +514,12 @@ $(function(){
     }
   });
   
-  $('#stateField').autocomplete({
-    lookup: states,
-    onSelect: function (suggestion) {
-      var thehtml = '<strong>state Name:</strong> ' + suggestion.value + ' <br> <strong>Symbol:</strong> ' + suggestion.data;
-      $('#outputcontent').html(thehtml);
-    }
-  });
+  // $('#stateField').autocomplete({
+  //   lookup: states,
+  //   onSelect: function (suggestion) {
+  //     var thehtml = '<strong>state Name:</strong> ' + suggestion.value + ' <br> <strong>Symbol:</strong> ' + suggestion.data;
+  //     $('#outputcontent').html(thehtml);
+  //   }
+  // });
 
 });

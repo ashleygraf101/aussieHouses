@@ -15932,87 +15932,73 @@ var eightypercent = document.getElementById('eightypercent');
 eightypercent.textContent = eytyth + ' years';
 }
 
-// var subButton = document.getElementById('subButton');
-// subButton.addEventListener('click', function() {
+// function validateIncome(elem, helperMsg){
+//   var elem = document.getElementById('incomeField');
+//   var helperMsg = 'Please enter your income';
+//   var numericExpression = /^[0-9\,\.]+$/;
+//   if(elem.value.match(numericExpression)){
+//     return true;
+//   }else{
+//     alert(helperMsg);
+//     return false;
+//   }
+// }
 
-// 	// validateSuburb();
-// 	// validateIncome();
-// 	// validateState();
 
-// 	// if (validateIncome() && validateSuburb() && validateState) {
+// function validateSuburb(){
+// 	var elem = document.getElementById('suburbField').value;
+// 	var helperMsg1 = 'Please enter a suburb';
+// 	var helperMsg2 = 'That suburb is not in our database';
+// 	var array = locations;
+//     var IsInArr = function(needle, haystack){
+//         for (var i = 0; i < haystack.length; i++) {
+//             if (haystack[i].suburb == needle) {
+//                 return true;
+//             }
+//         }
+//         return false;
+//     };
+//     if (IsInArr(elem, array)) {
+//         return true;
+//     } else if (elem.length == 0) {
+//         alert(helperMsg1);	        
+//     } else {
+//         alert(helperMsg2);	
+//     }
+// }
 
-// 	depositRecord();
-//     housePriceRecord();
-//     sourceRecord();
-//     printTen();
-//     printTwenty();
-//     printThirty();
-//     printForty();
-//     printFifty();
-//     printSixty();
-//     printSeventy();
-//     printEighty();
+// function validateState(){
+// 	var elem = document.getElementById('stateField').value;
+// 	var helperMsg1 = 'Please enter a state';
+// 	var helperMsg2 = 'That state is not in our database';
+// 	var array = locations;
+//     var IsInArr = function(needle, haystack){
+//         for (var i = 0; i < haystack.length; i++) {
+//             if (haystack[i].state == needle) {
+//                 return true;
+//             }
+//         }
+//         return false;
+//     };
+//     if (IsInArr(elem, array)) {
+//         return true;
+//     } else if (elem.length == 0) {
+//         alert(helperMsg1);	        
+//     } else {
+//         alert(helperMsg2);	
+//     }
+// }
 
-//     // }
-// });
+jQuery.validator.addMethod("validateState", function(value, element, params) {
+    if (this.optional(element))
+        return true;
 
-function validateIncome(elem, helperMsg){
-  var elem = document.getElementById('incomeField');
-  var helperMsg = 'Please enter your income';
-  var numericExpression = /^[0-9\,\.]+$/;
-  if(elem.value.match(numericExpression)){
-    return true;
-  }else{
-    alert(helperMsg);
+    for (var i = 0; i < params.length; i++)
+        if (value == params[i])
+            return true
+
     return false;
-  }
-}
-
-
-function validateSuburb(){
-	var elem = document.getElementById('suburbField').value;
-	var helperMsg1 = 'Please enter a suburb';
-	var helperMsg2 = 'That suburb is not in our database';
-	var array = locations;
-    var IsInArr = function(needle, haystack){
-        for (var i = 0; i < haystack.length; i++) {
-            if (haystack[i].suburb == needle) {
-                return true;
-            }
-        }
-        return false;
-    };
-    if (IsInArr(elem, array)) {
-        return true;
-    } else if (elem.length == 0) {
-        alert(helperMsg1);	        
-    } else {
-        alert(helperMsg2);	
-    }
-}
-
-function validateState(){
-	var elem = document.getElementById('stateField').value;
-	var helperMsg1 = 'Please enter a state';
-	var helperMsg2 = 'That state is not in our database';
-	var array = locations;
-    var IsInArr = function(needle, haystack){
-        for (var i = 0; i < haystack.length; i++) {
-            if (haystack[i].state == needle) {
-                return true;
-            }
-        }
-        return false;
-    };
-    if (IsInArr(elem, array)) {
-        return true;
-    } else if (elem.length == 0) {
-        alert(helperMsg1);	        
-    } else {
-        alert(helperMsg2);	
-    }
-}
-
+}, jQuery.validator.format("Please enter one of the following values: {0} {1} {2} {3} {4} {5} {6} {7}"));
 
 
     $("#form1").validate({
@@ -16021,7 +16007,10 @@ function validateState(){
             incomeField: {
                 required: true,
             },
-            stateField: "required"
+            stateField: {
+                required: true,
+                validateState: ['NSW', 'QLD', 'TAS', 'VIC', 'WA', 'SA', 'NT', 'ACT']
+            }
         },
         messages: {
             suburbField: "Please specify your suburb",
@@ -16068,33 +16057,3 @@ function validateState(){
         }
     });
 
-
-
-    // $('#btn').click(function () {
-
-
-    //     if ($("#form1").valid()) {
-        
-    //         depositRecord();
-    //         housePriceRecord();
-    //         sourceRecord();
-    //         printTen();
-    //         printTwenty();
-    //         printThirty();
-    //         printForty();
-    //         printFifty();
-    //         printSixty();
-    //         printSeventy();
-    //         printEighty();
-
-    //       }
-
-    // });
-
-// var subButton = document.getElementById('subButton');
-// subButton.addEventListener('click', function() {
-
-//     validateFormOnSubmit();
-// }
-
-// });
