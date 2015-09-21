@@ -81,7 +81,7 @@ jQuery.validator.addMethod("validateSuburb", function(value, element, params) {
         messages: {
             suburbField:  {
                     required: "Please specify your suburb",
-                    validateSuburb: "This state is not in the database"
+                    validateSuburb: "This state is not in the database as there is no recent data"
                     },
             incomeField: "Please specify your income",
             stateField:  {
