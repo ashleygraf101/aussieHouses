@@ -15,8 +15,8 @@
 
 <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
 <link rel="stylesheet" href="bootflat-ui/bootflat/css/bootflat.min.css">
-
-
+<script src="js/jquery-1.7.1.min.js"></script>
+<body>
 
 
 <title="Sydney Housing Prices"></title>
@@ -25,14 +25,9 @@
 
 <p id="savings"><h1>First Home Buyer?</h1></p>
 
-
-<div class="widget">
+<div>
     <p>This is a guide to how long it will take you, on your post-tax yearly income, to save up for a deposit in your dream suburb. </p>
-        </div>
-<div class="widget">
 <p>All data is gathered from www.realestate.com.au. Some suburbs may not be included in this dataset. All deposit prices assume you have taken out mortgage insurance. Tax information from https://www.ato.gov.au/Rates/Individual-income-tax-rates/</p>
-</div>
-<div class="widget">
 <p id="developer">The developer of this project is Ashley Graf. You can contact her at ashley.graf101@gmail.com</p>
 </div>
 
@@ -48,7 +43,7 @@
     <div class="form-group has-feedback">
         <label for="suburbField" class="control-label col-md-6">Suburb</label>
         <div class="col-md-6">
-            <input type="text" name="suburbField" id="suburbField" class="form-control" placeholder="dream suburb" />
+            <input type="text" name="suburbField" id="suburbField" class="form-control" placeholder="suburb" />
             <span class="glyphicon form-control-feedback" id="suburbField1"></span>
         </div>
     </div>  
@@ -60,8 +55,8 @@
         </div>
     </div>  
 
-<div>
-    <input id="btn" type="button" value="Tell Me Now" class="btn btn-primary"/>
+<div align="right">
+    <input id="btn" type="button" value="Tell Me Now" class="btn btn-success"/>
 </div>
  
 </form>   
@@ -111,15 +106,15 @@
 <div >
 <h3>Percentage of pre-tax income saved</h3>
 
-        <ul class="list-group">
-        <li class="list-group-item"><span class="badge badge-default">10%</span><p id='tenpercent'></p></li>
-        <li class="list-group-item"><span class="badge badge">20%</span><p id='twentypercent'></p></li>
-        <li class="list-group-item"><span class="badge badge">30%</span><p id='thirtypercent'></p></li>
-        <li class="list-group-item"><span class="badge badge-primary">40%</span><p id='fourtypercent'></p></li>
-        <li class="list-group-item"><span class="badge badge-success">50%</span><p id='fiftypercent'></p></li>
-        <li class="list-group-item"><span class="badge badge-warning">60%</span><p id='sixtypercent'></p></li>
-        <li class="list-group-item"><span class="badge badge-danger">70%</span><p id='seventypercent'></p></p></li>
-        <li class="list-group-item"><span class="badge badge-danger">80%</span><p id='eightypercent'></p></li>
+       <ul class="list-group">
+        <li class="list-group-item" style="height:15%"><span class="badge badge-default">10%</span><p id='tenpercent'></p></li>
+        <li class="list-group-item" style="height:15%"><span class="badge badge">20%</span><p id='twentypercent'></p></li>
+        <li class="list-group-item" style="height:15%"><span class="badge badge">30%</span><p id='thirtypercent'></p></li>
+        <li class="list-group-item" style="height:15%"><span class="badge badge-primary">40%</span><p id='fourtypercent'></p></li>
+        <li class="list-group-item" style="height:15%"><span class="badge badge-success">50%</span><p id='fiftypercent'></p></li>
+        <li class="list-group-item" style="height:15%"><span class="badge badge-warning">60%</span><p id='sixtypercent'></p></li>
+        <li class="list-group-item" style="height:15%"><span class="badge badge-danger">70%</span><p id='seventypercent'></p></p></li>
+        <li class="list-group-item" style="height:15%"><span class="badge badge-danger">80%</span><p id='eightypercent'></p></li>
         </ul>
 </div>
     </div>
