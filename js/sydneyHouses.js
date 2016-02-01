@@ -74,7 +74,7 @@ function housePriceRecord() {
         price.textContent = '$' + houseCost; 
     } else {
         price.textContent = '';
-        alert("There have been less than x sales for houses in this suburb in the past fortnight.");
+        alert("There have been less than 20 sales for houses in this suburb in the past fortnight.");
     }
 }
 
