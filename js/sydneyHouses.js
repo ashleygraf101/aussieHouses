@@ -2,7 +2,7 @@ var i;
 // Prepare an empty array to store the results
 var locations = [];
 // $.getJSON() is a wrapper for $.ajax(), and it returns a deffered jQuery object
-var deferred = $.getJSON('aussieHouses/data/suburbs_list.json');
+var deferred = $.getJSON('data/suburbs_list.json');
 
 deferred.done(function (suburbs_list) {
     // Any code placed here will be executed if the $.getJSON() method
