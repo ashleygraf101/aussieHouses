@@ -30,7 +30,6 @@ jQuery.validator.addMethod("validateSuburb", function(value, element, params) {
             },
             stateField: {
                 required: true,
-                validateState: ['NSW', 'QLD', 'TAS', 'VIC', 'WA', 'SA', 'NT', 'ACT']
             }
         },
         messages: {
