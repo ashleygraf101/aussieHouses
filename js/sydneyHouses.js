@@ -138,7 +138,6 @@ function deposit() {
 
 function depositRecord() {
     var depositNumber = deposit();
-    var depositPrice = document.getElementById('depositPrice');
 
     if ( depositNumber > 0 ) {
         depositPrice.textContent = '$' + depositNumber
